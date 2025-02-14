@@ -1,0 +1,934 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GDACS RSS information</title>
+    <link>https://www.gdacs.org/</link>
+    <copyright>public domain</copyright>
+    <description>Near real-time alerts about natural disaster with a potential humanitarian impact</description>
+    <managingEditor>stefano.paris@ext.ec.europa.eu</managingEditor>
+    <!--Records number 17-->
+    <!--Start 2/14/2025 9:56:35 AM-->
+    <!--=Start 2/14/2025 9:56:35 AM-->
+    <webMaster>stefano.paris@ext.ec.europa.eu</webMaster>
+    <pubDate>Fri, 14 Feb 2025 08:56:35 GMT</pubDate>
+    <atom:link href="https://www.gdacs.org/xml/rss_eq_24h.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Green earthquake alert (Magnitude 4.7M, Depth:10km) in [unknown] 14/02/2025 07:26 UTC, No people affected in 100km.</title>
+      <description>On 2/14/2025 7:26:23 AM, an earthquake occurred in [unknown] potentially affecting No people affected in 100km. The earthquake had Magnitude 4.7M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622431_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468228</link>
+      <pubDate>Fri, 14 Feb 2025 08:02:03 GMT</pubDate>
+      <gdacs:dateadded>Fri, 14 Feb 2025 08:02:03 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Fri, 14 Feb 2025 08:06:42 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Fri, 14 Feb 2025 07:26:23 GMT</gdacs:fromdate>
+      <gdacs:todate>Fri, 14 Feb 2025 07:26:23 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468228</guid>
+      <geo:Point>
+        <geo:lat>17.4536</geo:lat>
+        <geo:long>-83.2889</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>-87.2889 -79.2889 13.4536 21.4536</gdacs:bbox>
+      <georss:point>17.4536 -83.2889</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468228/cap_1468228.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468228</gdacs:eventid>
+      <gdacs:episodeid>1622431</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.7">Magnitude 4.7M, Depth:10km</gdacs:severity>
+      <gdacs:population unit="in MMI -" value="0" />
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3 />
+      <gdacs:country />
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468228/rss_1468228.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 5.2M, Depth:10km) in [unknown] 14/02/2025 06:39 UTC, No people affected in 100km.</title>
+      <description>On 2/14/2025 6:39:50 AM, an earthquake occurred in [unknown] potentially affecting No people affected in 100km. The earthquake had Magnitude 5.2M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622424_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468222</link>
+      <pubDate>Fri, 14 Feb 2025 06:54:42 GMT</pubDate>
+      <gdacs:dateadded>Fri, 14 Feb 2025 06:54:42 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Fri, 14 Feb 2025 06:54:42 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Fri, 14 Feb 2025 06:39:50 GMT</gdacs:fromdate>
+      <gdacs:todate>Fri, 14 Feb 2025 06:39:50 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468222</guid>
+      <geo:Point>
+        <geo:lat>1.1194</geo:lat>
+        <geo:long>-85.2951</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>-89.2951 -81.2951 -2.8806 5.1194</gdacs:bbox>
+      <georss:point>1.1194 -85.2951</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468222/cap_1468222.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468222</gdacs:eventid>
+      <gdacs:episodeid>1622424</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="5.2">Magnitude 5.2M, Depth:10km</gdacs:severity>
+      <gdacs:population unit="in MMI -" value="0" />
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3 />
+      <gdacs:country />
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468222/rss_1468222.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.9M, Depth:35km) in Russia 14/02/2025 01:32 UTC, No people affected in 100km.</title>
+      <description>On 2/14/2025 1:32:54 AM, an earthquake occurred in Russia potentially affecting No people affected in 100km. The earthquake had Magnitude 4.9M, Depth:35km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622380_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468185</link>
+      <pubDate>Fri, 14 Feb 2025 01:49:57 GMT</pubDate>
+      <gdacs:dateadded>Fri, 14 Feb 2025 01:49:57 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Fri, 14 Feb 2025 02:13:04 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Fri, 14 Feb 2025 01:32:54 GMT</gdacs:fromdate>
+      <gdacs:todate>Fri, 14 Feb 2025 01:32:54 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468185</guid>
+      <geo:Point>
+        <geo:lat>45.4459</geo:lat>
+        <geo:long>151.1704</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>147.1704 155.1704 41.4459 49.4459</gdacs:bbox>
+      <georss:point>45.4459 151.1704</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468185/cap_1468185.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468185</gdacs:eventid>
+      <gdacs:episodeid>1622380</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.9">Magnitude 4.9M, Depth:35km</gdacs:severity>
+      <gdacs:population unit="in MMI -" value="346">Few people affected in MMI -</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>RUS</gdacs:iso3>
+      <gdacs:country>Russia</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468185/rss_1468185.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 5M, Depth:156.262km) in Indonesia 14/02/2025 00:22 UTC, 9 thousand in 100km.</title>
+      <description>On 2/14/2025 12:22:58 AM, an earthquake occurred in Indonesia potentially affecting 9 thousand in 100km. The earthquake had Magnitude 5M, Depth:156.262km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622373_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468178</link>
+      <pubDate>Fri, 14 Feb 2025 00:41:51 GMT</pubDate>
+      <gdacs:dateadded>Fri, 14 Feb 2025 00:41:51 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Fri, 14 Feb 2025 01:03:02 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Fri, 14 Feb 2025 00:22:58 GMT</gdacs:fromdate>
+      <gdacs:todate>Fri, 14 Feb 2025 00:22:58 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468178</guid>
+      <geo:Point>
+        <geo:lat>-6.9839</geo:lat>
+        <geo:long>129.5924</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>125.5924 133.5924 -10.9839 -2.9839</gdacs:bbox>
+      <georss:point>-6.9839 129.5924</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468178/cap_1468178.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468178</gdacs:eventid>
+      <gdacs:episodeid>1622373</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="5">Magnitude 5M, Depth:156.3km</gdacs:severity>
+      <gdacs:population unit="in MMI III" value="5569">6 thousand in MMI III</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>IDN</gdacs:iso3>
+      <gdacs:country>Indonesia</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468178/rss_1468178.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.5M, Depth:10km) in [unknown] 14/02/2025 00:18 UTC, No people affected in 100km.</title>
+      <description>On 2/14/2025 12:18:12 AM, an earthquake occurred in [unknown] potentially affecting No people affected in 100km. The earthquake had Magnitude 4.5M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622413_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468189</link>
+      <pubDate>Fri, 14 Feb 2025 05:51:43 GMT</pubDate>
+      <gdacs:dateadded>Fri, 14 Feb 2025 05:51:43 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Fri, 14 Feb 2025 05:51:43 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Fri, 14 Feb 2025 00:18:12 GMT</gdacs:fromdate>
+      <gdacs:todate>Fri, 14 Feb 2025 00:18:12 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468189</guid>
+      <geo:Point>
+        <geo:lat>6.6447</geo:lat>
+        <geo:long>-84.4152</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>-88.4152 -80.4152 2.6447 10.6447</gdacs:bbox>
+      <georss:point>6.6447 -84.4152</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468189/cap_1468189.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468189</gdacs:eventid>
+      <gdacs:episodeid>1622413</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.5">Magnitude 4.5M, Depth:10km</gdacs:severity>
+      <gdacs:population unit="in MMI -" value="0" />
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3 />
+      <gdacs:country />
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468189/rss_1468189.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 5.8M, Depth:9.1km) in United States 13/02/2025 23:59 UTC, No people affected in 100km.</title>
+      <description>On 2/13/2025 11:59:26 PM, an earthquake occurred in United States potentially affecting No people affected in 100km. The earthquake had Magnitude 5.8M, Depth:9.1km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622363_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468173</link>
+      <pubDate>Fri, 14 Feb 2025 00:03:13 GMT</pubDate>
+      <gdacs:dateadded>Fri, 14 Feb 2025 00:03:13 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Fri, 14 Feb 2025 00:30:22 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 23:59:26 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 23:59:26 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468173</guid>
+      <geo:Point>
+        <geo:lat>55.6162</geo:lat>
+        <geo:long>-154.9119</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>-158.9119 -150.9119 51.6162 59.6162</gdacs:bbox>
+      <georss:point>55.6162 -154.9119</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468173/cap_1468173.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468173</gdacs:eventid>
+      <gdacs:episodeid>1622363</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="5.8">Magnitude 5.8M, Depth:9.1km</gdacs:severity>
+      <gdacs:population unit="in MMI -" value="0" />
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>USA</gdacs:iso3>
+      <gdacs:country>United States</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468173/rss_1468173.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.5M, Depth:576.64km) in Fiji 13/02/2025 21:29 UTC, Few people affected in 100km.</title>
+      <description>On 2/13/2025 9:29:55 PM, an earthquake occurred in Fiji potentially affecting Few people affected in 100km. The earthquake had Magnitude 4.5M, Depth:576.64km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622352_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468165</link>
+      <pubDate>Thu, 13 Feb 2025 22:32:03 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 22:32:03 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 22:32:03 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 21:29:55 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 21:29:55 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468165</guid>
+      <geo:Point>
+        <geo:lat>-20.7723</geo:lat>
+        <geo:long>-178.4451</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>-182.4451 -174.4451 -24.7723 -16.7723</gdacs:bbox>
+      <georss:point>-20.7723 -178.4451</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468165/cap_1468165.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468165</gdacs:eventid>
+      <gdacs:episodeid>1622352</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.5">Magnitude 4.5M, Depth:576.6km</gdacs:severity>
+      <gdacs:population unit="in MMI&amp;&gt;=-" value="963">Few people affected in MMI&amp;&gt;=-</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>FJI</gdacs:iso3>
+      <gdacs:country>Fiji</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468165/rss_1468165.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.8M, Depth:57.816km) in [unknown] 13/02/2025 21:20 UTC, No people affected in 100km.</title>
+      <description>On 2/13/2025 9:20:55 PM, an earthquake occurred in [unknown] potentially affecting No people affected in 100km. The earthquake had Magnitude 4.8M, Depth:57.816km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622347_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468162</link>
+      <pubDate>Thu, 13 Feb 2025 22:01:25 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 22:01:25 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 22:01:25 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 21:20:55 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 21:20:55 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468162</guid>
+      <geo:Point>
+        <geo:lat>-58.7595</geo:lat>
+        <geo:long>-25.4745</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>-29.4745 -21.4745 -62.7595 -54.7595</gdacs:bbox>
+      <georss:point>-58.7595 -25.4745</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468162/cap_1468162.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468162</gdacs:eventid>
+      <gdacs:episodeid>1622347</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.8">Magnitude 4.8M, Depth:57.8km</gdacs:severity>
+      <gdacs:population unit="in MMI -" value="0" />
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3 />
+      <gdacs:country />
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468162/rss_1468162.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.8M, Depth:43.273km) in Indonesia 13/02/2025 21:07 UTC, 3 thousand in 100km.</title>
+      <description>On 2/13/2025 9:07:32 PM, an earthquake occurred in Indonesia potentially affecting 3 thousand in 100km. The earthquake had Magnitude 4.8M, Depth:43.273km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622409_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468160</link>
+      <pubDate>Fri, 14 Feb 2025 04:54:22 GMT</pubDate>
+      <gdacs:dateadded>Fri, 14 Feb 2025 04:54:22 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Fri, 14 Feb 2025 04:54:22 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 21:07:32 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 21:07:32 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468160</guid>
+      <geo:Point>
+        <geo:lat>-6.2183</geo:lat>
+        <geo:long>103.6477</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>99.6477 107.6477 -10.2183 -2.2183</gdacs:bbox>
+      <georss:point>-6.2183 103.6477</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468160/cap_1468160.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468160</gdacs:eventid>
+      <gdacs:episodeid>1622409</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.8">Magnitude 4.8M, Depth:43.3km</gdacs:severity>
+      <gdacs:population unit="in MMI III" value="17989">20 thousand in MMI III</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>IDN</gdacs:iso3>
+      <gdacs:country>Indonesia</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468160/rss_1468160.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 5M, Depth:10km) in Indonesia 13/02/2025 18:16 UTC, 6 thousand in 100km.</title>
+      <description>On 2/13/2025 6:16:21 PM, an earthquake occurred in Indonesia potentially affecting 6 thousand in 100km. The earthquake had Magnitude 5M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622307_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468134</link>
+      <pubDate>Thu, 13 Feb 2025 18:39:56 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 18:39:56 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 18:56:25 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 18:16:21 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 18:16:21 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468134</guid>
+      <geo:Point>
+        <geo:lat>-6.4676</geo:lat>
+        <geo:long>129.0734</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>125.0734 133.0734 -10.4676 -2.4676</gdacs:bbox>
+      <georss:point>-6.4676 129.0734</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468134/cap_1468134.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468134</gdacs:eventid>
+      <gdacs:episodeid>1622307</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="5">Magnitude 5M, Depth:10km</gdacs:severity>
+      <gdacs:population unit="in MMI III" value="1079">1 thousand in MMI III</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>IDN</gdacs:iso3>
+      <gdacs:country>Indonesia</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468134/rss_1468134.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.6M, Depth:10km) in Indonesia 13/02/2025 17:44 UTC, 940 thousand in 100km.</title>
+      <description>On 2/13/2025 5:44:34 PM, an earthquake occurred in Indonesia potentially affecting 940 thousand in 100km. The earthquake had Magnitude 4.6M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622312_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468128</link>
+      <pubDate>Thu, 13 Feb 2025 19:20:02 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 19:20:02 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 19:20:02 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 17:44:34 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 17:44:34 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468128</guid>
+      <geo:Point>
+        <geo:lat>-10.7147</geo:lat>
+        <geo:long>123.9343</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>119.9343 127.9343 -14.7147 -6.7147</gdacs:bbox>
+      <georss:point>-10.7147 123.9343</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468128/cap_1468128.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468128</gdacs:eventid>
+      <gdacs:episodeid>1622312</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.6">Magnitude 4.6M, Depth:10km</gdacs:severity>
+      <gdacs:population unit="in MMI III" value="624607">620 thousand in MMI III</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>IDN</gdacs:iso3>
+      <gdacs:country>Indonesia</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468128/rss_1468128.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.7M, Depth:10km) in Greece 13/02/2025 15:42 UTC, 70 thousand in 100km.</title>
+      <description>On 2/13/2025 3:42:21 PM, an earthquake occurred in Greece potentially affecting 70 thousand in 100km. The earthquake had Magnitude 4.7M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622275_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468110</link>
+      <pubDate>Thu, 13 Feb 2025 16:11:31 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 16:11:31 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 16:22:23 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 15:42:21 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 15:42:21 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468110</guid>
+      <geo:Point>
+        <geo:lat>36.5777</geo:lat>
+        <geo:long>25.5149</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>21.5149 29.5149 32.5777 40.5777</gdacs:bbox>
+      <georss:point>36.5777 25.5149</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468110/cap_1468110.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468110</gdacs:eventid>
+      <gdacs:episodeid>1622275</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.7">Magnitude 4.7M, Depth:10km</gdacs:severity>
+      <gdacs:population unit="in MMI IV" value="16108">20 thousand in MMI IV</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>GRC</gdacs:iso3>
+      <gdacs:country>Greece</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468110/rss_1468110.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.8M, Depth:150.154km) in Indonesia 13/02/2025 15:08 UTC, Few people affected in 100km.</title>
+      <description>On 2/13/2025 3:08:11 PM, an earthquake occurred in Indonesia potentially affecting Few people affected in 100km. The earthquake had Magnitude 4.8M, Depth:150.154km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622268_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468108</link>
+      <pubDate>Thu, 13 Feb 2025 15:34:52 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 15:34:52 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 15:48:23 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 15:08:11 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 15:08:11 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468108</guid>
+      <geo:Point>
+        <geo:lat>-6.5299</geo:lat>
+        <geo:long>130.2826</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>126.2826 134.2826 -10.5299 -2.5299</gdacs:bbox>
+      <georss:point>-6.5299 130.2826</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468108/cap_1468108.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468108</gdacs:eventid>
+      <gdacs:episodeid>1622268</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.8">Magnitude 4.8M, Depth:150.2km</gdacs:severity>
+      <gdacs:population unit="in MMI -" value="352">Few people affected in MMI -</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>IDN</gdacs:iso3>
+      <gdacs:country>Indonesia</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468108/rss_1468108.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.6M, Depth:58.926km) in Peru 13/02/2025 15:04 UTC, 100 thousand in 100km.</title>
+      <description>On 2/13/2025 3:04:07 PM, an earthquake occurred in Peru potentially affecting 100 thousand in 100km. The earthquake had Magnitude 4.6M, Depth:58.926km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622272_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468111</link>
+      <pubDate>Thu, 13 Feb 2025 15:47:42 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 15:47:42 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 15:47:42 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 15:04:07 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 15:04:07 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468111</guid>
+      <geo:Point>
+        <geo:lat>-15.654</geo:lat>
+        <geo:long>-74.2785</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>-78.2785 -70.2785 -19.654 -11.654</gdacs:bbox>
+      <georss:point>-15.654 -74.2785</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468111/cap_1468111.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468111</gdacs:eventid>
+      <gdacs:episodeid>1622272</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.6">Magnitude 4.6M, Depth:58.9km</gdacs:severity>
+      <gdacs:population unit="in MMI III" value="80125">80 thousand in MMI III</gdacs:population>
+      <gdacs:vulnerability value="1.78228028098837" />
+      <gdacs:iso3>PER</gdacs:iso3>
+      <gdacs:country>Peru</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468111/rss_1468111.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.9M, Depth:10km) in Vanuatu 13/02/2025 12:18 UTC, No people affected in 100km.</title>
+      <description>On 2/13/2025 12:18:38 PM, an earthquake occurred in Vanuatu potentially affecting No people affected in 100km. The earthquake had Magnitude 4.9M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622232_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468075</link>
+      <pubDate>Thu, 13 Feb 2025 12:36:57 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 12:36:57 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 12:58:42 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 12:18:38 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 12:18:38 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468075</guid>
+      <geo:Point>
+        <geo:lat>-20.5962</geo:lat>
+        <geo:long>168.8718</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>164.8718 172.8718 -24.5962 -16.5962</gdacs:bbox>
+      <georss:point>-20.5962 168.8718</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468075/cap_1468075.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468075</gdacs:eventid>
+      <gdacs:episodeid>1622232</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.9">Magnitude 4.9M, Depth:10km</gdacs:severity>
+      <gdacs:population unit="in MMI&amp;&gt;=II" value="845">Few people affected in MMI&amp;&gt;=II</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>VUT</gdacs:iso3>
+      <gdacs:country>Vanuatu</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468075/rss_1468075.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.7M, Depth:10km) in Uganda 13/02/2025 11:16 UTC, 7.8 million in 100km.</title>
+      <description>On 2/13/2025 11:16:10 AM, an earthquake occurred in Uganda potentially affecting 7.8 million in 100km. The earthquake had Magnitude 4.7M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622224_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468068</link>
+      <pubDate>Thu, 13 Feb 2025 11:40:00 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 11:40:00 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 11:56:25 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 11:16:10 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 11:16:10 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468068</guid>
+      <geo:Point>
+        <geo:lat>-0.2201</geo:lat>
+        <geo:long>29.7119</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>25.7119 33.7119 -4.2201 3.7799</gdacs:bbox>
+      <georss:point>-0.2201 29.7119</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468068/cap_1468068.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468068</gdacs:eventid>
+      <gdacs:episodeid>1622224</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.7">Magnitude 4.7M, Depth:10km</gdacs:severity>
+      <gdacs:population unit="in MMI IV" value="331613">330 thousand in MMI IV</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>UGA</gdacs:iso3>
+      <gdacs:country>Uganda</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468068/rss_1468068.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+    <item>
+      <title>Green earthquake alert (Magnitude 4.9M, Depth:13.846km) in Chile 13/02/2025 10:46 UTC, 10 thousand in 100km.</title>
+      <description>On 2/13/2025 10:46:58 AM, an earthquake occurred in Chile potentially affecting 10 thousand in 100km. The earthquake had Magnitude 4.9M, Depth:13.846km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1622221_1.png" />
+      <gdacs:temporary>false</gdacs:temporary>
+      <link>https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1468064</link>
+      <pubDate>Thu, 13 Feb 2025 11:30:22 GMT</pubDate>
+      <gdacs:dateadded>Thu, 13 Feb 2025 11:30:22 GMT</gdacs:dateadded>
+      <gdacs:datemodified>Thu, 13 Feb 2025 11:30:22 GMT</gdacs:datemodified>
+      <gdacs:iscurrent>true</gdacs:iscurrent>
+      <gdacs:fromdate>Thu, 13 Feb 2025 10:46:58 GMT</gdacs:fromdate>
+      <gdacs:todate>Thu, 13 Feb 2025 10:46:58 GMT</gdacs:todate>
+      <gdacs:durationinweek>0</gdacs:durationinweek>
+      <gdacs:year>2025</gdacs:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1468064</guid>
+      <geo:Point>
+        <geo:lat>-24.8874</geo:lat>
+        <geo:long>-70.9863</geo:long>
+      </geo:Point>
+      <!--gdacs:bbox format = lonmin lonmax latmin latmax-->
+      <gdacs:bbox>-74.9863 -66.9863 -28.8874 -20.8874</gdacs:bbox>
+      <georss:point>-24.8874 -70.9863</georss:point>
+      <gdacs:cap>https://www.gdacs.org/contentdata/resources/EQ/1468064/cap_1468064.xml</gdacs:cap>
+      <gdacs:icon>https://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</gdacs:icon>
+      <gdacs:version>1</gdacs:version>
+      <gdacs:eventtype>EQ</gdacs:eventtype>
+      <gdacs:alertlevel>Green</gdacs:alertlevel>
+      <gdacs:alertscore>0</gdacs:alertscore>
+      <gdacs:episodealertlevel>Green</gdacs:episodealertlevel>
+      <gdacs:episodealertscore>1</gdacs:episodealertscore>
+      <gdacs:eventname />
+      <gdacs:eventid>1468064</gdacs:eventid>
+      <gdacs:episodeid>1622221</gdacs:episodeid>
+      <gdacs:calculationtype>earthquakeonly</gdacs:calculationtype>
+      <gdacs:severity unit="M" value="4.9">Magnitude 4.9M, Depth:13.8km</gdacs:severity>
+      <gdacs:population unit="in MMI III" value="8018">8 thousand in MMI III</gdacs:population>
+      <gdacs:vulnerability value="1.3145341380124" />
+      <gdacs:iso3>CHL</gdacs:iso3>
+      <gdacs:country>Chile</gdacs:country>
+      <gdacs:glide />
+      <gdacs:mapimage />
+      <gdacs:maplink />
+      <gdacs:gtsimage />
+      <gdacs:gtslink />
+      <gdacs:resources>
+        <gdacs:resource id="event_rss" version="0" source="EC-JRC" url="https://www.gdacs.org//datareport/resources/EQ/1468064/rss_1468064.xml" type="rss">
+          <gdacs:title>Event in rss format</gdacs:title>
+          <gdacs:description>Joint Research Center of the European Commission</gdacs:description>
+          <gdacs:acknowledgements>Copyright European Union. Syndication allowed, provided the source is acknowledged.</gdacs:acknowledgements>
+          <gdacs:accesslevel>Public</gdacs:accesslevel>
+        </gdacs:resource>
+      </gdacs:resources>
+    </item>
+  </channel>
+</rss><!--End 2/14/2025 9:56:36 AM-->

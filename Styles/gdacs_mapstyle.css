@@ -1,0 +1,35 @@
+﻿.ol-popup {position: absolute;background-color: white;-webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));padding: 10px;border-radius: 0px;border: 1px solid #cccccc;bottom: 12px;left: -50px;min-width: 280px;z-index: 9999;}
+.ol-popup:after, .ol-popup:before {top: 100%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;}
+.ol-popup:after {border-top-color: white;border-width: 10px;left: 48px;margin-left: -10px;}
+.ol-popup:before {border-top-color: #cccccc;border-width: 11px;left: 48px;margin-left: -11px;}
+.ol-popup-closer {text-decoration: none;top: 1px;right: 2px;}
+.ol-popup-closer:after {content: 'Close';font-weight:bold;color:black;font-size:10px;top: 1px;right: 2px;}
+.ol-popup-content {	text-decoration: none;	font-size: 14px;	padding:10px 10px 10px 10px;}
+.ol-popup-content a {text-decoration: none;font-weight:bold;color:black;}
+.ol-popup-closer:after a{text-decoration: none;font-weight:bold;;color:black;}
+.ol-popupOver {
+    position: absolute;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 10px;
+    border-radius: 0px;
+    border: 1px solid #cccccc;
+    bottom: 20px;
+    left: -130px;
+    min-width: 575px;
+}
+
+
+.map_baloon { position: absolute; background-color: #ffffff; webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2)); filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2)); padding: 10px; border: 1px solid #cccccc; bottom: 12px;left: -50px; min-width: 280px; min-height: 80px;}
+.p_map_baloon_text {font-size: 14px; font-weight: normal; color: #333333; line-height: 18px; margin-bottom:10px;}
+.p_map_baloon_text_bold {font-size: 14px; font-weight: bold; color: #333333; line-height: 18px; margin-bottom:10px;}
+
+
+.mapOverview {width: 1000px; height:400px; overflow:hidden;}
+.mapFull {width: 1024px; height:512px;}
+.mapCr {width: 985px; height:400px;}
+.mapSingle {width: 500px; height:350px;}
+.paragraph {font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px; font-weight: normal; letter-spacing: 0.001em; line-height: 18px; color: #3E5255;}
+.map_item_popup{font-family:Verdana, Geneva, Tahoma, sans-serif;color:#000000;font-size:12px;padding-top:4px ;padding-bottom:4px}
+.map_item_popup_content{border:1px solid; border-radius: 10px;margin:2px 2px 2px 2px; padding:2px 2px 2px 2px;}

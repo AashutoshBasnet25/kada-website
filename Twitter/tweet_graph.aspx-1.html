@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript" src="../Scripts/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="../Scripts/highcharts/6.2.0/highcharts.js"></script>
+    <script type="text/javascript" src="../Scripts/Report/highcharts_graph.js"></script>
+    <title>
+
+</title></head>
+<body>
+    <form name="form1" method="post" action="./tweet_graph.aspx?eventtype=EQ&amp;eventid=1103112&amp;type=graph2&amp;trunc=minutes" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="HP3VLQJGPHwOoIsg1PxyIWEbKQXVGWgnpehfikzZA5weyHTYdwAo6oQc6qIgerilBqk718GEkm70oa7wjjFFEZHOq0YU9//hWiGDIurbSM4=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5EF203A5" />
+        <div>
+             <div id="chart_div" style="width: 480px; height: 400px;"></div>
+        </div>
+    </form>
+    <script type="text/javascript" >
+
+         twitterScatter('chart_div', '[{"name":"killed","color":"rgba(0, 204, 20, .5)","data":[{"x":-8.0,"y":1.0,"label":"killed: 1 tweet before -8 minutes"},{"x":-3.0,"y":1.0,"label":"killed: 1 tweet before -3 minutes"},{"x":1.0,"y":1.0,"label":"killed: 1 tweet after 1 minutes"},{"x":13.0,"y":1.0,"label":"killed: 1 tweet after 13 minutes"},{"x":45.0,"y":1.0,"label":"killed: 1 tweet after 45 minutes"},{"x":63.0,"y":1.0,"label":"killed: 1 tweet after 63 minutes"},{"x":77.0,"y":1.0,"label":"killed: 1 tweet after 77 minutes"},{"x":78.0,"y":1.0,"label":"killed: 1 tweet after 78 minutes"},{"x":153.0,"y":1.0,"label":"killed: 1 tweet after 153 minutes"},{"x":159.0,"y":1.0,"label":"killed: 1 tweet after 159 minutes"},{"x":162.0,"y":1.0,"label":"killed: 1 tweet after 162 minutes"},{"x":166.0,"y":1.0,"label":"killed: 1 tweet after 166 minutes"},{"x":169.0,"y":1.0,"label":"killed: 1 tweet after 169 minutes"},{"x":207.0,"y":1.0,"label":"killed: 1 tweet after 207 minutes"},{"x":222.0,"y":1.0,"label":"killed: 1 tweet after 222 minutes"}]},{"name":"nuclear","color":"rgba(9, 74, 185, .5)","data":[{"x":41.0,"y":1.0,"label":"nuclear: 1 tweet after 41 minutes"},{"x":132.0,"y":1.0,"label":"nuclear: 1 tweet after 132 minutes"},{"x":200.0,"y":1.0,"label":"nuclear: 1 tweet after 200 minutes"}]},{"name":"landslide","color":"rgba(185, 44, 9, .5)","data":[{"x":200.0,"y":1.0,"label":"landslide: 1 tweet after 200 minutes"},{"x":218.0,"y":1.0,"label":"landslide: 1 tweet after 218 minutes"}]}]', 'minutes',[-200,-100,0,100,200,300,400])
+
+    </script>
+</body>
+</html>

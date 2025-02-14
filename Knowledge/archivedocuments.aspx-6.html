@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	GDACS - Global Disaster Alert and Coordination System
+</title><link href="../Content/bootstrap.min.css" rel="stylesheet"><link href="../Styles/gdacs_2.0.css" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" media="(min-width: 768px) and (max-width: 991px)" href="../Styles/gdacs_device_2.0.css"><link rel="stylesheet" media="(max-width: 768px)" href="../Styles/gdacs_minidevice_2.0.css">
+    <script type="text/javascript" src="../Scripts/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="https://europa.eu/webtools/load.js" type="text/javascript"></script>
+    <script type="application/json">
+    {
+        "utility":"analytics",
+        "siteID":"770a3ada-ebea-420b-923a-c6490acb21ab",
+        "sitePath":["www.gdacs.org"],
+        "instance":"ec",
+        "mode":"manual"
+    }
+    </script>
+	<script type="application/json">
+	{
+		"utility" : "cck",
+		"url": {
+			"en": "https://commission.europa.eu/cookies-policy_en",
+			"de": "https://commission.europa.eu/cookies-policy_de"
+		}
+	}
+	</script>
+    
+    <script type="text/javascript" src="../Scripts/jquery-3.6.4.min.js"></script>
+
+
+
+  <style type="text/css">
+        .navbar-header{color: #9bc1ce; background-color:#69A7C3; }
+        .navbar-footer{color: #9bc1ce; background-color:transparent;border:none; border-bottom:none;border-color:transparent; }
+        .navbar-report{color: #6d9baf; border-bottom:1px solid; border-color:#6d9baf;min-height: 40px;margin-bottom:15px}
+        .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{color: #ffffff; text-decoration: underline;}
+        .navbar-light .navbar-nav .nav-link{color:#c5d5d8}
+        .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {background-color:transparent;text-decoration:underline;color:white;}
+        .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .activereport > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.activereport {background-color:transparent;text-decoration:underline;color:#125172;margin: 0px 20px 0 15px}
+        .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .report-link> .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.report-link {color: #6d9baf;margin: 0px 20px 0 15px}
+        .report-link {color: #6d9baf;}
+        #footer_home {background-color:#125172;}
+
+    </style>
+
+   <script type="text/javascript">
+       if ($wt.analytics.isTrackable()) {
+           $wt.trackPageView();
+       }
+   </script>
+    <link href="../Styles/gdacs_2.0_bootstrap4to5.css" rel="stylesheet">
+        
+<!-- Piwik 
+   <script type="text/javascript">
+       if ($wt.cookie.consent.is.choiceMade() && $wt.cookie.consent.is.allAccepted()) {
+           var _paq = _paq || [];
+               /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+                  _paq.push(['trackPageView']);
+                  _paq.push(['enableLinkTracking']);
+                  (function() {
+                  var u="//stats.jrc.ec.europa.eu/";
+                  _paq.push(['setTrackerUrl', u+'piwik.php']);
+                  _paq.push(['setSiteId', '319']);
+                  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+                  })();
+      }
+   </script>
+ End Piwik Code -->
+</head>
+<body>
+    <div id="wrapper_anniversary">
+            
+            <div id="header" class="container-fluid">
+            <div id="top_menu">
+                                <style>
+                    @media screen (min-width: 992px) {#main_alert_content .navbar-expand-lg {height:40px;}}
+                </style>
+                <div class="container">
+                    <!--<div class="float-right gdacs_top_menu_content"><a href="https://www.gdacs.org/admin" target="_blank">admin</a></div>-->
+                    <div class="float-end gdacs_top_menu_content"><a href="../gdacsregister.html" target="_blank">register/login</a></div>
+                    <div class="float-end gdacs_top_menu_content"><a href="../About/contactus.aspx.html">contact us</a></div>
+                    <div class="float-end gdacs_top_menu_content"><a href="../About/termofuse.aspx.html">term of use</a></div>
+
+                </div>
+            </div>
+            <div id="heading" class="container">
+                <div id="rowhead" class="row">
+                    <div id="gd_logo" class="col-lg-3 gdacs_logo">
+						<img id="gdacs_logo_image" src="../images/gdacs_logo_ecs_medium3.png">
+					</div>
+                    <div id="gd_statement" class="d-none d-lg-block col-lg-6 gdacs_statement"> GDACS is a cooperation framework between the United Nations, the European Commission and disaster managers worldwide to improve alerts, information exchange and coordination in the first phase after major sudden-onset disasters.</div>
+                    <div id="gd_uneu" class="d-none d-lg-block col-lg-3 gdacs_uneu">
+						<img src="../images/un_eu.png">
+					</div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="nopadding" class="container">
+            
+            <div id="topmenu">
+                <nav class="navbar navbar-expand-lg navbar-light navbar-header navbar-fixed-top">
+
+                  <button class="navbar-toggler" style="font-size:18px; color:white; font-weight:bold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style="color:white;"></span>
+                      MENU
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="../default.aspx.html">HOME</a>
+                        <a class="nav-item nav-link" href="../Alerts/default.aspx.html">ALERTS</a>
+                        <a class="nav-item nav-link" href="http://vosocc.unocha.org">VIRTUAL OSOCC</a>
+                        <a class="nav-item nav-link" href="https://smcs.unosat.org/home" target="_blank">MAPS & SATELLITE IMAGERY</a>                      
+                        <a class="nav-item nav-link" href="overview.aspx.html">KNOWLEDGE</a>
+                        <a class="nav-item nav-link" href="../About/overview.aspx.html">ABOUT</a>
+                    </div>
+                  </div>
+                                                  <a class="nav-item nav-link" href="../anniversary.aspx.html" style="padding: 0 0 0 0">
+                                <img src="../images/gdacs_20th/gdacs_20_banner.png" alt="Gdacs 20th Anniversary">
+                            </a>
+                </nav>
+            </div>
+    	    
+            <div id="main_alert_content" class="col-lg-12">
+                <nav id="eventMenu" class="navbar navbar-expand-lg navbar-light navbar-report">    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavReport" aria-controls="navbarNavReport" aria-expanded="false" aria-label="Toggle navigation">    <span class="navbar-toggler-icon"></span>    </button>    <div class="collapse navbar-collapse" id="navbarNavReport">        <ul class="navbar-nav">            <li class="nav item report-link"><a class="nav-link " href="overview.aspx.html">Scientific overview</a></li><li class="nav item report-link"><a class="nav-link " href="models_eq.aspx.html">Models</a></li><li class="nav item report-link"><a class="nav-link " href="publications.aspx.html">Publications</a></li><li class="nav item report-link"><a class="nav-link " href="archivenews.aspx.html">News</a></li><li class="nav item activereport"><a class="nav-link " href="archivedocuments.aspx.html">Documents Archive</a></li>         </ul>    </div></nav>
+                <form name="aspnetForm" method="post" action="./archivedocuments.aspx?oid=173" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="25944483">
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="vjaUvfpAkvGRMs3gKxN4s6+ytAoxAPP5KWChRoK7ykabudxa0k/o5qbalBJoGG9sZsTkY/iHbPMh0D/dD8QFO5toDV8SaLdL1wwegWY8NXHS73JCg24ANzqpGhkMFkaddZuorhrPMYz5X41lol5+dMO5jmejQjR3urCYBze8f0GWB3Y1sYe3lQNs5nDGYngvZLGi5AIW24qkuEZ7U7JrDd/kogrRe8Ne0+PHsGXfWEG6LqYp24AhtHV4oMShuLr1IY7h7EGkyrJ1cTvQKgOZz07jKtRsoy3cAuEbKnxg2gC6R8Euy7rZkg1hUi3IRrU4/vu/08EBvbMbcmWXknrRd4wA+nddjtXRRs8xg7j3chA=">
+                    
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12">
+            <h2>GDACS Document archive</h2>
+       	    <p class="p_summary">In this section a list of GDACS documents.</p>
+            <div class="row section_report">
+                <div class="col-lg-12">
+	                <div class="row">
+		                <div class="col-lg-4">
+                            <div class="row">
+		                        <div class="col-lg-2 p_summary">
+                                    Section
+		                        </div>
+		                        <div class="col-lg-10">
+                                    <select name="ctl00$CPH$ddlType" id="ctl00_CPH_ddlType" class="form-control p_summary" style="display:inline;">
+	<option value="0">All</option>
+	<option value="1">Journal publication</option>
+	<option value="2">JRC Emergency Report</option>
+	<option selected="selected" value="3">JRC Technical Report</option>
+	<option value="4">GDACS Satellite mapping overview</option>
+	<option value="5">Presentation</option>
+	<option value="6">GDACS Annual meetings</option>
+	<option value="7">ECML Report</option>
+
+</select>
+                                </div>
+                            </div>
+                        </div>
+		                <div class="col-lg-3">
+                            <div class="row">
+		                        <div class="col-lg-2 p_summary">
+                                    From
+		                        </div>
+		                        <div class="col-lg-10">
+				                    <input name="ctl00$CPH$inputDateFrom" id="ctl00_CPH_inputDateFrom" class="form-control p_summary" type="date">
+                                </div>
+                            </div>
+		                    <div class="row">
+		                        <div class="col-lg-2 p_summary">
+                                    To
+		                        </div>
+		                        <div class="col-lg-10">
+				                    <input name="ctl00$CPH$inputDateTo" id="ctl00_CPH_inputDateTo" class="form-control p_summary" type="date">
+                                </div>
+                            </div>
+                        </div>
+		                <div class="col-lg-5">
+                            <div class="row">
+		                        <div class="col-lg-2 p_summary">
+                                    Content
+		                        </div>
+		                        <div class="col-lg-10">
+                                    <input name="ctl00$CPH$inputTextContent" id="ctl00_CPH_inputTextContent" class="form-control p_summary" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+	                <div class="row">
+                        <div class="col-lg-12">
+                            <input type="submit" name="ctl00$CPH$btnsearch" value="Search" id="ctl00_CPH_btnsearch" class="btn btn-primary button_generic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="ModeratorBodyMain" class="p_summary">  
+                        <div id="ctl00_CPH_pMain">
+	
+                            <span id="ctl00_CPH_LabelBack"></span>
+                            <table style="border: 0px;" width="100%">
+                                <tr>
+                                    <td>
+                                        <div>
+		<table class="generic_admin" cellspacing="0" rules="all" border="1" id="ctl00_CPH_grDocuments" width="100%">
+			<tr class="main_tit">
+				<th scope="col">Link</th><th scope="col">&nbsp;</th>
+			</tr><tr>
+				<td width="50">
+                                                        <a href='archivedocuments.aspx-6.html?oid=173'>173 </a>
+                                                    </td><td>
+                                                        <div class="data_resource_box">
+                                                            <div class="thumb_div_publications">
+                                                                <a href="../Public/download-8.aspx?type=DC&id=173"><img src="../contentdata/documents/thumbnails/2016_tc_data_in_gdacs.png" id="ctl00_CPH_grDocuments_ctl02_imgDoc" width="41"></a>
+                                                            </div>
+                                                            <div class="div_text_publications">
+                                                                <p class="p_publication_title"><span id="ctl00_CPH_grDocuments_ctl02_ltitle">TROPICAL CYCLONES in GDACS: Data sources</span><span class="p_summary" style="float:right;font-weight:normal"><i>12 Dec 2016 15:41</i></span></p>
+                                                                <p class="p_authors">Authors:Pamela Probst, Alessandro Annunziato</p>
+                                                                <span id="ctl00_CPH_grDocuments_ctl02_labelDescription">       <div id="content_desc_173">           <span id="document_desc_173" class="p_summary">               The Global Disaster Alert and Coordination System (GDACS) provides alerts and preliminary impact estimations of the natural disasters around the world, like earthquakes, tsunami, tropical cyclones and...<div class="more_desc" data-ref="173">(more)</div>           </span>           <span id="document_desc_173_hidden" class="p_summary" style="display:none">               The Global Disaster Alert and Coordination System (GDACS) provides alerts and preliminary impact estimations of the natural disasters around the world, like earthquakes, tsunami, tropical cyclones and floods. The Tropical Cyclones (TCs) are among the most damaging events. They affect the population with three dangerous effects: strong wind, heavy rain and storm surge. GDACS has developed a system that includes the analysis of all these effects for every TC occurring worldwide, using several different data sources. This report describes these data sources and the tools developed by the JRC to include the TC information in GDACS, as well as the new products that could be used to improve the current system.&nbsp;&nbsp;&nbsp;<div class="less_desc" data-ref="173">(hide)</div>            </span>       </div></span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+			</tr>
+		</table>
+	</div>
+
+                                    </td>
+                                </tr>
+            
+                            </table>
+                        
+</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    
+    </div>
+    </div>
+<script type="text/javascript">
+        $(function () {
+
+            $(".more_desc").click(function () {
+                var idNews = $(this).data("ref");
+                $('#document_desc_' + idNews).css("display", "none");
+                $('#document_desc_' + idNews + '_hidden').css("display", "block");
+            });
+            $(".less_desc").click(function () {
+                var idNews = $(this).data("ref");
+                $('#document_desc_' + idNews + '_hidden').css("display", "none");
+                $('#document_desc_' + idNews).css("display", "block");
+            });
+
+
+        });
+
+    </script>
+
+                </form>
+            </div><!-- end main_alert_content-->
+
+            
+            <div id="footer_home">
+                <nav class="navbar navbar-expand-lg navbar-light navbar-footer col-12">
+                  <button class="navbar-toggler" style="font-size:18px; color:white; font-weight:bold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style="color:white;"></span>
+                      MENU
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkupFooter">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link " href="../default.aspx.html">HOME</a><a class="nav-item nav-link " href="../Alerts/default.aspx.html">ALERTS</a><a class="nav-item nav-link " href="http://vosocc.unocha.org">VIRTUAL OSOCC</a><a class="nav-item nav-link " href="https://smcs.unosat.org/home" target="_blank">MAPS & SATELLITE IMAGERY</a><a class="nav-item nav-link active" href="overview.aspx.html">KNOWLEDGE</a><a class="nav-item nav-link " href="../About/overview.aspx.html">ABOUT</a>
+                    </div>
+                  </div>
+                </nav>
+                <div id="footer_disclaimer" class="col-12">
+                    <!--<div class="float-left gdacs_bottom_menu_content" ><a href="https://ec.europa.eu/info/brexit-content-disclaimer" target="_blank">Brexit content disclaimer</a></div>-->
+                    <div class="float-end gdacs_bottom_menu_content"><a href="../About/cookies.aspx.html" target="_blank">cookies</a></div>
+                    <p><b><span class="gdacs_bottom_menu_content"><a href="https://ec.europa.eu/info/legal-notice_en" target="_blank">Disclaimer</a></span></b><br>
+                    While we try everything to ensure accuracy, this information is purely indicative and should not be used for any decision making without alternate sources of information. 
+                    <br>The JRC is not responsible for any damage or loss resulting from use of the information presented on this website.</p> 
+                    <br>The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the European Union concerning the legal status of any country, territory or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.
+                </div>
+                <div id="footer_logo" class="d-none d-lg-block">
+                    <div class="footerlogo_item d-none d-lg-block"><img src="../images/gdacs_icons/partners/ec.png" width="90" height="70" alt=""></div>
+                    <div class="footerlogo_item d-none d-lg-block"><img src="../images/gdacs_icons/partners/ocha.png" width="90" height="70" alt=""></div>
+                    <div class="footerlogo_item d-none d-lg-block"><img src="../images/gdacs_icons/partners/unitar.png" width="90" height="70" alt=""></div>
+                    <div class="footerlogo_item d-none d-lg-block"><img src="../images/gdacs_icons/partners/unosat.png" width="90" height="70" alt=""></div>
+                </div>
+	        </div>
+                                
+
+        </div>
+    </div>
+<script type="text/javascript">
+
+
+     $(function() {
+         if (window.innerWidth < 991) {
+             $("#nopadding").addClass('container-fluid').removeClass('container');
+             $("#send").attr("style", "text-align:left");
+             $("#name").attr("style", "text-align: left");
+             $("#mail").attr("style", "text-align: left");
+             $("#txtmail").attr("style", "text-align: left");
+
+              var x = document.getElementsByClassName("alert_item_name");
+              var i;
+              for (i = 0; i < x.length; i++) {
+                x[i].style.paddingLeft = "0px";
+              }
+
+                $("div.alert_item_name").each(function (o, elt) {
+                  var newElt = $("<span class='alert_item_name'/>");
+                  Array.prototype.slice.call(elt.attributes).forEach(function(a) {
+                    newElt.attr(a.name, a.value);
+                  });
+                  $(elt).wrapInner(newElt).children(0).unwrap();
+             });
+
+                $("div.alert_item_attribute").each(function (o, elt) {
+                  var newElt = $("<span class='alert_item_attribute'/>");
+                  Array.prototype.slice.call(elt.attributes).forEach(function(a) {
+                    newElt.attr(a.name, a.value);
+                  });
+                  $(elt).wrapInner(newElt).children(0).unwrap();
+             });
+
+
+             }
+        });
+
+    $(window).resize(function () {
+
+        if (window.innerWidth < 991) {
+            $("#nopadding").addClass('container-fluid').removeClass('container');
+             $("#send").attr("style", "text-align:left");
+             $("#name").attr("style", "text-align: left");
+             $("#mail").attr("style", "text-align: left");
+             $("#txtmail").attr("style", "text-align: left");
+            //function myFunction() {
+              var x = document.getElementsByClassName("alert_item_name");
+              var i;
+              for (i = 0; i < x.length; i++) {
+                x[i].style.paddingLeft = "0px";
+              }
+            //}
+
+            $("div.alert_item_name").each(function (o, elt) {
+                var newElt = $("<span class='alert_item_name'/>");
+                Array.prototype.slice.call(elt.attributes).forEach(function (a) {
+                    newElt.attr(a.name, a.value);
+                });
+                $(elt).wrapInner(newElt).children(0).unwrap();
+            });
+
+            $("div.alert_item_attribute").each(function (o, elt) {
+                var newElt = $("<span class='alert_item_attribute'/>");
+                Array.prototype.slice.call(elt.attributes).forEach(function (a) {
+                    newElt.attr(a.name, a.value);
+                });
+                $(elt).wrapInner(newElt).children(0).unwrap();
+            });
+
+            if (document.getElementById("#eventMenu") != null) { (document.getElementById("#eventMenu").style.paddingLeft = '0px') };
+            if (document.getElementById("#eventMenuDrop") != null) { (document.getElementById("#eventMenuDrop").style.paddingLeft = '0px') };
+
+        }
+        else {
+            $("#nopadding").addClass('container').removeClass('container-fluid');
+            $("#send").attr("style", "text-align: right");
+            $("#name").attr("style", "text-align: right");
+            $("#mail").attr("style", "text-align: right");
+            $("#txtmail").attr("style", "text-align: right");
+
+            $("span.alert_item_name").each(function (o, elt) {
+                var newElt = $("<div class='alert_item_name' />");
+                Array.prototype.slice.call(elt.attributes).forEach(function (a) {
+                    newElt.attr(a.name, a.value);
+                });
+                $(elt).wrapInner(newElt).children(0).unwrap();
+            });
+
+            $("span.alert_item_attribute").each(function (o, elt) {
+                var newElt = $("<div class='alert_item_attribute' />");
+                Array.prototype.slice.call(elt.attributes).forEach(function (a) {
+                    newElt.attr(a.name, a.value);
+                });
+                $(elt).wrapInner(newElt).children(0).unwrap();
+            });
+
+            if (document.getElementById("#eventMenu") != null) { (document.getElementById("#eventMenu").style.paddingLeft = '15px') };
+            if (document.getElementById("#eventMenuDrop") != null) { (document.getElementById("#eventMenuDrop").style.paddingLeft = '0px') };
+        }
+    });
+</script>
+        
+<!--
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-298127-1");
+pageTracker._setDomainName(".gdacs.org");
+pageTracker._setLocalRemoteServerMode();
+pageTracker._trackPageview();
+} catch(err) {}</script>
+-->
+</body>
+</html>

@@ -1,0 +1,1618 @@
+﻿
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Overall Green Tropical Cyclone alert  for ZELIA-25 in Australia from 11 Feb 2025 06:00 UTC to 13 Feb 2025 12:00 UTC
+</title><link href="../Content/bootstrap.min.css" rel="stylesheet"><link href="../Styles/gdacs_2.0.css" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" media="(min-width: 768px) and (max-width: 991px)" href="../Styles/gdacs_device_2.0.css"><link rel="stylesheet" media="(max-width: 768px)" href="../Styles/gdacs_minidevice_2.0.css">
+    <script src="https://webtools.europa.eu/load.js" type="text/javascript"></script>
+    <script type="application/json">
+    {
+        "utility":"analytics",
+        "siteID":"770a3ada-ebea-420b-923a-c6490acb21ab",
+        "sitePath":["www.gdacs.org"],
+        "instance":"ec",
+        "mode":"manual"
+    }
+    </script>
+	<script type="application/json">
+	{
+		"utility" : "cck",
+		"url": {
+			"en": "https://commission.europa.eu/cookies-policy_en",
+			"de": "https://commission.europa.eu/cookies-policy_de"
+		}
+	}
+	</script>
+    <script type="text/javascript" src="../Scripts/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../Scripts/Alertlevels/DetailedTable.js"></script>
+<!--    <script type="text/javascript" src="/Scripts/adaptivecard/InformCard.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/adaptivecards/dist/adaptivecards.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/adaptive-expressions@4.12.0/lib/browser.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/adaptivecards-templating/dist/adaptivecards-templating.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script>
+-->
+    
+
+    <link rel="stylesheet" href="../scripts/openlayers/3.20.1/ol.css" type="text/css">
+    <link rel="stylesheet" href="../scripts/openlayers/layerswitcher/ol3-layerswitcher.css">
+    <link rel="stylesheet" href="../Styles/gdacs_mapstyle.css">
+    <link rel="stylesheet" href="../Content/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="../Content/all.css">
+    <script type="text/javascript" src="../scripts/openlayers/3.20.1/ol.js"></script>
+    <script type="text/javascript" src="../scripts/openlayers/layerswitcher/ol3-layerswitcher.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-ui-1.13.2.min.js"></script>
+    <script type="text/javascript" src="../Scripts/highcharts/6.1.3/highcharts.js"></script>
+    <script type="text/javascript" src="../Scripts/Report/highcharts_graph.js"></script>
+    
+    <style type="text/css">
+        #selectBulletin {vertical-align:top;padding-left:5px;}
+        #contentDropdowns {vertical-align:top; max-height:200px;overflow-y:scroll}
+            #contentDropdowns .dropdown-item {color:#125172;font-weight: 500;}
+    </style>
+
+
+
+   <style type="text/css">
+        .navbar-header{color: #9bc1ce; background-color:#69A7C3; }
+        .navbar-footer{color: #9bc1ce; background-color:transparent;border:none; border-bottom:none;border-color:transparent; }
+        .navbar-report{color: #6d9baf; border-bottom:1px solid; border-color:#6d9baf;min-height: 40px;margin-bottom:15px}
+        .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{color: #ffffff; text-decoration: underline;}
+        .navbar-light .navbar-nav .nav-link{color:#c5d5d8}
+        .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {background-color:transparent;text-decoration:underline;color:white;}
+        .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .activereport > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.activereport {background-color:transparent;text-decoration:underline;color:#125172;margin: 0px 20px 0 15px}
+        .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .report-link> .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.report-link {color: #6d9baf;margin: 0px 20px 0 15px}
+        .report-link {color: #6d9baf;}
+        #footer_home {background-color:#125172;}
+       /*.device-toggler.navbar-toggler .navbar-toggler-icon {
+             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(75, 255, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+    .device-toggler.navbar-toggler {
+      border-color: rgb(75, 255, 0);
+    }
+
+    .device-toggler.navbar-toggler:focus {
+      outline-color: rgb(75, 255, 0);
+    }*/
+    </style>
+    <link href="../Styles/gdacs_2.0_bootstrap4to5.css" rel="stylesheet">
+	<script type="text/javascript">
+        $(function () {
+            $('table.generic tr.main_tit').data("current", "main_tit");
+            $('table.generic tr.main_tit').on('click', function () {
+                changeColor(this);
+            });
+        });
+        function changeColor(x) {
+            var _current = $(x).data("current");
+            if (_current == "main_tit") {
+                $(x).data('current', 'main_tit_highlighted');
+                $(".main_tit").css("background-color", "#083c53");
+                $(".generic").css("color", "#000000");
+            }
+            else {
+                $(x).data('current', 'main_tit');
+                $(".main_tit").css("background-color", "#a3b8c1");
+                $(".generic").css("color", "#666666");
+            }
+        }
+
+    </script>
+            
+<!-- Piwik 
+   <script type="text/javascript">
+       if ($wt.cookie.consent.is.choiceMade() && $wt.cookie.consent.is.allAccepted()) {
+           var _paq = _paq || [];
+           /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+           _paq.push(['trackPageView']);
+           _paq.push(['enableLinkTracking']);
+           (function () {
+               var u = "//stats.jrc.ec.europa.eu/";
+               _paq.push(['setTrackerUrl', u + 'piwik.php']);
+               _paq.push(['setSiteId', '319']);
+               var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+               g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+           })();
+       }
+   </script>
+ End Piwik Code -->
+</head>
+<body>
+    <div id="wrapper_anniversary">
+            
+            <div id="header" class="container-fluid">
+            <div id="top_menu">
+                <style>
+                    @media screen (min-width: 992px) {#main_alert_content .navbar-expand-lg {height:40px;}}
+                </style>
+                <div class="container">
+                    <div class="float-end gdacs_top_menu_content"><a href="../admin/login.html" target="_blank">admin</a></div>
+                    <div class="float-end gdacs_top_menu_content"><a href="../gdacsregister.html" target="_blank">register/login</a></div>
+                    <div class="float-end gdacs_top_menu_content"><a href="../About/contactus.aspx.html">contact us</a></div>
+                    <div class="float-end gdacs_top_menu_content"><a href="../About/termofuse.aspx.html">term of use</a></div>
+                </div>
+            </div>
+            <div id="heading" class="container">
+                <div id="rowhead" class="row">
+                    <div id="gd_logo" class="col-lg-3 gdacs_logo">
+						<img id="gdacs_logo_image" src="../images/gdacs_logo_ecs_medium3.png">
+					</div>
+                    <div id="gd_statement" class="col-lg-6 gdacs_statement d-none d-lg-block"> GDACS is a cooperation framework between the United Nations, the European Commission and disaster managers worldwide to improve alerts, information exchange and coordination in the first phase after major sudden-onset disasters.</div>
+                    <div id="gd_uneu" class="col-lg-3 gdacs_uneu d-none d-lg-block">
+						<img src="../images/un_eu.png">
+					</div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="nopadding" class="container">
+            
+            <div id="topmenu">
+                <nav class="navbar navbar-expand-lg navbar-light navbar-header navbar-fixed-top">
+
+                  <button class="navbar-toggler" style="font-size:18px; color:white; font-weight:bold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style="color:white;"></span>
+                      MENU
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="../default.aspx.html">HOME</a>
+                        <a class="nav-item nav-link" href="../Alerts/default.aspx.html">ALERTS</a>
+                        <a class="nav-item nav-link" href="http://vosocc.unocha.org">VIRTUAL OSOCC</a>
+                        <a class="nav-item nav-link" href="https://smcs.unosat.org/home" target="_blank">MAPS & SATELLITE IMAGERY</a>                      
+                        <a class="nav-item nav-link" href="../Knowledge/overview.aspx.html">KNOWLEDGE</a>
+                        <a class="nav-item nav-link" href="../About/overview.aspx.html">ABOUT</a>
+                    </div>
+                  </div>
+                                                <a class="nav-item nav-link" href="../anniversary.aspx.html" style="padding: 0 0 0 0">
+                                <img src="../images/gdacs_20th/gdacs_20_banner.png" alt="Gdacs 20th Anniversary">
+                            </a>
+                </nav>
+            </div>
+            
+            <div class="row">
+                <div class="report_title col-lg-12" style="margin-left: 15px;">
+                    <span id="ctl00_masterReportTitle"><div id="alert_TC_Green_title_big"><div class="alert_title">Overall Green alert Tropical Cyclone  for ZELIA-25</div><div class="d-none d-md-block alert_subtitle"> in Australia</div></div></span>
+                </div>
+            </div>
+            
+            <div id="" class="">
+                <div class="row alert_contents_menu">
+                    <div class="col-lg-12">
+                        <nav id="#eventMenu" class="navbar navbar-expand-lg navbar-light navbar-report">
+                            <button class="navbar-toggler" style="font-size:16px; font-weight:bold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavReport" aria-controls="navbarNavReport" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                                DETAILS
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavReport">
+                                <ul class="navbar-nav">
+                                    <li class="nav item report-link"><a class="nav-link " href="../report.aspx-6.html?eventid=1001145&episodeid=10&eventtype=TC">Summary</a></li><li class="nav item activereport"><a class="nav-link " href="report.aspx-31.html?eventid=1001145&episodeid=10&eventtype=TC">Impact</a></li><li class="nav item report-link"><a class="nav-link " href="../meteo.aspx-3.html?eventid=1001145&episodeid=10&eventtype=TC">Meteo</a></li><li class="nav item report-link"><a class="nav-link " href="../gts.aspx.html?eventid=1001145&eventtype=TC">GTS</a></li><li class="nav item report-link"><a class="nav-link " href="../media.aspx-6.html?eventid=1001145&episodeid=10&eventtype=TC">Media</a></li><li class="nav item report-link"><a class="nav-link " href="../resources.aspx-5.html?eventid=1001145&episodeid=10&eventtype=TC&sourceid=JTWC">Resources</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        
+
+
+                    </div>
+                </div>
+                <form name="aspnetForm" method="post" action="./report.aspx?eventtype=TC&amp;eventid=1001145&amp;episodedate=2025-02-13+12%3a00%3a00&amp;sourceid=JTWC" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Dit0bSmstv3QqmVBiIG1X9guSpfMcU7+D32pp128t78nyHf3Go8sYYJtIlc6DTtjTSV3a1euUN+lXw9+aU0clYbBDx/WhT3nwC5RUjtku4AiDvWSm2iE6zqZ+4ZbsuDNFGha/N5lQJzz14PrwQq38QPOfm/5JxjVbnncA/KFNkmso05czgQJ+ythQs6L/wkxffR098rmPy64NEK3BM/z+pGMxa5QxmrkTWIIHGC8AnxK6lWs7l3EvSQzs4DahmQG1OZ5Q/WS3kXjRTykqVTlRIWMxTBkNPnKOlmfQkbNKYV64RAQjdRX1oYgQNQLIaEwTpjn2KY4CaNbnsB2RZVh+w1RDrsNHpBbUIjWh7iwygCQ28SnFHbZUSTOVOAIqTjTZQpx+zs5ZlQ21cpXgn1nJ0ZTeyNjbvg6vfucegEyyEOng57VMK77xAtNXYgLJXrLdLuR4nRdmcgxHPCEr0wO8uzAusgmPQRAgwnOVaRFcxAmatPrw7eFu0VMMLi/e0Th0xiKm2MKvkBd4oJH0RGVihuOE4Vqo5mfy5uyloqGrm7N6hr71tQWZRzf4sdDsp3pLF8/twZdaeWv1EigPNTARw==">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FFC37019">
+                    
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" style="max-width:1000px">
+        <div class="modal-content">              
+          <div class="modal-body">
+      	    <button type="button" class="close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <img src="" class="imagepreview" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row alert_contents_first">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="alert_sources_minitabs">
+                        <div class="bulletin">
+                            <!--startSubMenu-->
+                            <div class="alert_title_current">13&nbsp;Feb&nbsp;2025 12 UTC<div class="dropdown float-end"> <img class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="selectBulletin" width="28" height="16" src="../images/drop_arrow.png"> <div id="contentDropdowns" class="dropdown-menu scrollable-menu" aria-labelledby="selectBulletin">   <a class="dropdown-item" href="report.aspx-2.html?eventtype=TC&eventid=1001145&episodedate=2025-02-14 06:00:00&sourceid=JTWC">14 Feb 2025 06 UTC 13</a>   <a class="dropdown-item" href="report.aspx-3.html?eventtype=TC&eventid=1001145&episodedate=2025-02-14 00:00:00&sourceid=JTWC">14 Feb 2025 00 UTC 12</a>   <a class="dropdown-item" href="report.aspx-4.html?eventtype=TC&eventid=1001145&episodedate=2025-02-13 18:00:00&sourceid=JTWC">13 Feb 2025 18 UTC 11</a>   <a class="dropdown-item" href="report.aspx-5.html?eventtype=TC&eventid=1001145&episodedate=2025-02-13 12:00:00&sourceid=JTWC">13 Feb 2025 12 UTC 10</a>   <a class="dropdown-item" href="report.aspx-6.html?eventtype=TC&eventid=1001145&episodedate=2025-02-13 06:00:00&sourceid=JTWC">13 Feb 2025 06 UTC 9</a>   <a class="dropdown-item" href="report.aspx-7.html?eventtype=TC&eventid=1001145&episodedate=2025-02-13 00:00:00&sourceid=JTWC">13 Feb 2025 00 UTC 8</a>   <a class="dropdown-item" href="report.aspx-8.html?eventtype=TC&eventid=1001145&episodedate=2025-02-12 18:00:00&sourceid=JTWC">12 Feb 2025 18 UTC 7</a>   <a class="dropdown-item" href="report.aspx-9.html?eventtype=TC&eventid=1001145&episodedate=2025-02-12 12:00:00&sourceid=JTWC">12 Feb 2025 12 UTC 6</a>   <a class="dropdown-item" href="report.aspx-10.html?eventtype=TC&eventid=1001145&episodedate=2025-02-12 06:00:00&sourceid=JTWC">12 Feb 2025 06 UTC 5</a>   <a class="dropdown-item" href="report.aspx-11.html?eventtype=TC&eventid=1001145&episodedate=2025-02-12 00:00:00&sourceid=JTWC">12 Feb 2025 00 UTC 4</a>   <a class="dropdown-item" href="report.aspx-12.html?eventtype=TC&eventid=1001145&episodedate=2025-02-11 18:00:00&sourceid=JTWC">11 Feb 2025 18 UTC 3</a>   <a class="dropdown-item" href="report.aspx-13.html?eventtype=TC&eventid=1001145&episodedate=2025-02-11 12:00:00&sourceid=JTWC">11 Feb 2025 12 UTC 2</a>   <a class="dropdown-item" href="report.aspx-14.html?eventtype=TC&eventid=1001145&episodedate=2025-02-11 06:00:00&sourceid=JTWC">11 Feb 2025 06 UTC 1</a> </div></div><!--div list bulletin--><div class="clearfix"></div></div>
+                            <!--endSubMenu-->
+                        </div>
+                    </div>
+                    <span id="ctl00_CPH_labelAdditionaDescription"><div class="p_summary_small ">click on <img src="../images/drop_arrow.png" width="14" height="8"> to select bulletin time</div></span>
+                </div>
+                <div id="menuSourceCol" class="col-lg-1" style="padding-left: 0px;">
+                    <div class="sources_">
+                        <p class="p_summary"><a href="../Knowledge/models_TC.aspx.html"><span style="font-size:12px">Meteorological source</span></a>:</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="sources_">
+                        <div class="main_cyclone_source" style="width:auto"><ul class="nav nav-pills"><li><div class=""><div class="sources_minitabs_multi_sel">GDACS JTWC</div></div></li></ul><div class="p_summary_extrasmall" style="margin-left:10px;margin-bottom:5px;margin-top:5px;text-align:center">Impact Single TC</div></div>
+                        <div class="secondary_cyclone_source_additional" style="vertical-align:top"><ul class="nav nav-pills"><li><div class=""><div class="sources_minitabs_multi"><a href="report_source.aspx-1.html?eventtype=TC&eventid=1001145&system=GFS">GFS</a></div></div></li><li><div class=""><div class="sources_minitabs_multi"><a href="report_source.aspx.html?eventtype=TC&eventid=1001145&system=HWRF">HWRF</a></div></div></li><li><div class=""><div class="sources_minitabs_multi"><a href="report_source.aspx-2.html?eventtype=TC&eventid=1001145&system=ECMWF">ECMWF</a></div></div></li></ul><div class="p_summary_extrasmall" style="margin-left:10px;margin-bottom:5px;margin-top:5px">Impact based on all weather systems in the area</div></div>
+                    </div>
+                    
+                </div>
+
+
+                <!--
+                <div id="menuSourceCol" class="col-lg-2">
+                    <div class="alert_sources_minitabs">
+                        <div class="bulletin">
+                             <ul class="nav nav-pills"><li ><div class=""><div class="sources_minitabs_multi_sel" >GDACS JTWC</div></div></li></ul><div class="p_summary_extrasmall" style="margin-left:10px;margin-bottom:5px;margin-top:5px;text-align:center">Impact Single TC</div>
+                        </div>
+                    </div>
+                    <span id="ctl00_CPH_labelMenuSourceDescription"></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="sources_">
+                        <p class="p_summary"><a href="../Knowledge/models_tc.aspx">Meteorological source</a>:</p>
+                    </div>
+                </div>
+                <div id="meteodefSourceCol" class="col-lg-5">
+                        <ul class="nav nav-pills"><li ><div class=""><div class="sources_minitabs_multi" ><a href="https://www.gdacs.org/Cyclones/report_source.aspx?eventtype=TC&eventid=1001145&system=GFS">GFS</a></div></div></li><li ><div class=""><div class="sources_minitabs_multi" ><a href="https://www.gdacs.org/Cyclones/report_source.aspx?eventtype=TC&eventid=1001145&system=HWRF">HWRF</a></div></div></li><li ><div class=""><div class="sources_minitabs_multi" ><a href="https://www.gdacs.org/Cyclones/report_source.aspx?eventtype=TC&eventid=1001145&system=ECMWF">ECMWF</a></div></div></li></ul><div class="p_summary_extrasmall" style="margin-left:10px;margin-bottom:5px;margin-top:5px">Impact based on all weather systems in the area</div>
+                </div>
+                -->
+            </div>
+            <div class="row ">
+                <div class="col-lg-12">
+                    <div class="hr_thin_text_low_margin"></div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-12">
+                
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div id="alert_summary_left"><h2>Impact <div style="float:right;width:85%;margin-top:1px"><ul class="nav nav-pills"></ul></div></h2>
+                            <p class="p_summary">Tropical Cyclone <b>ZELIA-25</b> can have a low humanitarian impact based on the maximum sustained wind speed,exposed population and vulnerability.</p><table class="summary"><tr><td>Meteorological source </td><td class="cell_value_summary">GDACS</td></tr><tr><td>Exposed countries </td><td class="cell_value_summary">Australia</td></tr><tr><td>Exposed population </td><td class="cell_value_summary">30 thousand<span style="font-weight:normal"> in Category 1 or higher</span></td></tr><tr><td>Maximum wind speed </td><td class="cell_value_summary">241 km/h</td></tr><tr><td>Maximum storm surge </td><td class="cell_value_summary">1 m<span style="font-weight:normal"> (11 Feb 14:00 UTC)</span></td></tr><tr><td>Vulnerability </td><td class="cell_value_summary">Low (Australia)</td></tr><tr><td>Landfall </td><td class="cell_value_summary"><span style="font-weight:normal">between<br>14 Feb 2025 00:00 - 14 Feb 2025 12:00</span><br><span style="font-weight:normal">in</span> Australia</td></tr></table>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="alertbar">
+                                <h2>GDACS Score</h2>
+                                <div id="alertscorebar" class="scorebar"></div>
+                                <div class="map_half_caption">
+                                    GDACS alert score for Tropical Cyclones is 0.5 (GREEN Alert), 1.5 (ORANGE Alert), 2.5 (RED Alert)<br>
+                                    <!--GDACS alert score for Earthquake is 0.5 (GREEN Alert), 1.5 (ORANGE Alert), 2.5 (RED Alert)<br>-->
+           	                        For more info on GDACS alert score click <a href="../Knowledge/models_TC.aspx.html" target="_blank">here</a>. 
+                                </div>
+                                <table class="matrix"><tr>      <td>&nbsp;</td>      <td class="cell_type_matrix"><a href="#WIND">Wind </a></td>      <td class="cell_type_matrix"><a href="#STORMSURGE">Storm surge</a></td>      <td class="cell_type_matrix"><a href="#RAIN">Rainfall</a></td>      <td class="cell_matrix_gdacs">GDACS score</td></tr><tr>      <td class="cell_source_current_matrix"> Current</td>      <td class="cell_values_current_matrix">259 km/h</td>      <td class="cell_values_current_matrix">1.0 m</td>      <td class="cell_values_current_matrix">n.a.</td>      <td class="cell_green_current_matrix">0.5</td></tr><tr>      <td class="cell_source_matrix"> Overall</td>      <td class="cell_values_matrix">241 km/h</td>      <td class="cell_values_matrix">1.0 m</td>      <td class="cell_values_matrix">n.a.</td>      <td class="cell_green_matrix">0.5</td></tr><tr>      <td colspan="5"><p class="p_summary_small">Maximum winds, storm surge, rainfall (<b>Current</b>: over the next 72 h, <b>Overall</b>: entire TC track) based on GDACS impact</p> </td></tr></table>
+                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                             
+                            
+                        </div>
+                        
+						
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <div class="row alert_contents section_report">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="toplink_div"><a href="#">TOP</a></div>
+                <h2 id="wind"><a name="WIND">Wind <div style="float:right;width:85%;margin-top:1px"><ul class="nav nav-pills"></ul></div></a></h2>
+                <div class="alert_WI_source_blu">259 km/h Current Max.</div><p class="p_summary"><p class="p_summary">
+      Up to 31000 people
+      
+        in Category 1 strength or higher
+      
+        (see <a href="../Knowledge/models_tc.aspx-1.html?#CLASSIFICATION" target="_blank">SSHS</a>)
+      </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div id="sectionImage1" class="col-lg-6">
+                    
+                        </div>
+
+                        <div id="sectionImage2" class="col-lg-6">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table table-responsive">
+                            <h3><a name="IMPACT_TIMELINE">Impact Timeline <div style="float:right;width:85%;margin-top:1px"><ul class="nav nav-pills"></ul></div></a></h3>
+                             <div id="impactTimeline">   <table class="generic">       <tr class="main_tit">         <th width="4%">Alert</th>         <th width="3%">N°</th>         <th width="12%">Date (UTC)</th>         <th width="10%">Max Winds (km/h) </th>         <th width="20%">Population in<br>Tropical Storm or higher</th>         <th width="19%">Population in<br>Cat 1. or higher</th>         <th width="38%">Countries</th>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-15.html?eventid=1001145&episodeid=1&eventtype=TC&sourceid=JTWC">1</a></td>         <td>11 Feb 2025 06:00</td>         <td>148</td>         <td>20 thousand</td>         <td>Few people</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-16.html?eventid=1001145&episodeid=2&eventtype=TC&sourceid=JTWC">2</a></td>         <td>11 Feb 2025 12:00</td>         <td>176</td>         <td>50 thousand</td>         <td>30 thousand</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-17.html?eventid=1001145&episodeid=3&eventtype=TC&sourceid=JTWC">3</a></td>         <td>11 Feb 2025 18:00</td>         <td>176</td>         <td>80 thousand</td>         <td>20 thousand</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-18.html?eventid=1001145&episodeid=4&eventtype=TC&sourceid=JTWC">4</a></td>         <td>12 Feb 2025 00:00</td>         <td>194</td>         <td>80 thousand</td>         <td>20 thousand</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-19.html?eventid=1001145&episodeid=5&eventtype=TC&sourceid=JTWC">5</a></td>         <td>12 Feb 2025 06:00</td>         <td>222</td>         <td>70 thousand</td>         <td>40 thousand</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-20.html?eventid=1001145&episodeid=6&eventtype=TC&sourceid=JTWC">6</a></td>         <td>12 Feb 2025 12:00</td>         <td>222</td>         <td>70 thousand</td>         <td>20 thousand</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-21.html?eventid=1001145&episodeid=7&eventtype=TC&sourceid=JTWC">7</a></td>         <td>12 Feb 2025 18:00</td>         <td>231</td>         <td>70 thousand</td>         <td>20 thousand</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-22.html?eventid=1001145&episodeid=8&eventtype=TC&sourceid=JTWC">8</a></td>         <td>13 Feb 2025 00:00</td>         <td>287</td>         <td>70 thousand</td>         <td>10 thousand</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-23.html?eventid=1001145&episodeid=9&eventtype=TC&sourceid=JTWC">9</a></td>         <td>13 Feb 2025 06:00</td>         <td>259</td>         <td>70 thousand</td>         <td>9 thousand</td>         <td>Australia</td>       </tr> <tr>         <td><img src="../images/gdacs_icons/alerts/Green/TC.png" alt="Green" style="width:30px;height:30px;"></td>         <td><a href="report.aspx-24.html?eventid=1001145&episodeid=10&eventtype=TC&sourceid=JTWC">10</a></td>         <td>13 Feb 2025 12:00</td>         <td>259</td>         <td>80 thousand</td>         <td>30 thousand</td>         <td>Australia</td>       </tr> </table></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table table-responsive">
+                            <h3><a name="BULLETIN_TIMELINE">Bulletin Timeline <div style="float:right;width:85%;margin-top:1px"><ul class="nav nav-pills"></ul></div></a></h3>
+                             <div id="bulletinTimeline">
+  <table class="generic">
+    <tr class="main_tit">
+      <th>Alert</th>
+      <th>N°</th>
+      <th>Date (UTC)</th>
+      <th>
+            Category
+            <br>(SSHS)
+          </th>
+      <th>
+            Max winds<br>(km/h)
+            </th>
+      <th>
+            Population in<br>Cat.1 or higher
+          </th>
+      <th>
+            Population in<br>Tropical Storm<br>or higher
+          </th>
+      <th>Location (lat, lon)</th>
+      <th>Countries</th>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>1</td>
+      <td>11 Feb 2025 06:00</td>
+      <td>Tropical storm</td>
+      <td><b>74</b></td>
+      <td>
+        no people
+      </td>
+      <td>
+        no people
+      </td>
+      <td>-16.9,
+            119.8</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>2</td>
+      <td>11 Feb 2025 12:00</td>
+      <td>Tropical storm</td>
+      <td><b>74</b></td>
+      <td>
+        no people
+      </td>
+      <td>
+        no people
+      </td>
+      <td>-17.9,
+            119.1</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>3</td>
+      <td>11 Feb 2025 18:00</td>
+      <td>Tropical storm</td>
+      <td><b>93</b></td>
+      <td>
+        no people
+      </td>
+      <td>21000 people
+      </td>
+      <td>-18.5,
+            118.9</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>4</td>
+      <td>12 Feb 2025 00:00</td>
+      <td>Tropical storm</td>
+      <td><b>111</b></td>
+      <td>
+        no people
+      </td>
+      <td>50000 people
+      </td>
+      <td>-19.1,
+            118.6</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>5</td>
+      <td>12 Feb 2025 06:00</td>
+      <td>Category 1</td>
+      <td><b>120</b></td>
+      <td>
+        no people
+      </td>
+      <td>21000 people
+      </td>
+      <td>-19,
+            118.7</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>6</td>
+      <td>12 Feb 2025 12:00</td>
+      <td>Category 1</td>
+      <td><b>130</b></td>
+      <td>
+        no people
+      </td>
+      <td>22000 people
+      </td>
+      <td>-19.1,
+            118.6</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>7</td>
+      <td>12 Feb 2025 18:00</td>
+      <td>Category 2</td>
+      <td><b>157</b></td>
+      <td>
+        no people
+      </td>
+      <td>21000 people
+      </td>
+      <td>-19.2,
+            118.3</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>8</td>
+      <td>13 Feb 2025 00:00</td>
+      <td>Category 4</td>
+      <td><b>222</b></td>
+      <td>
+        no people
+      </td>
+      <td>21000 people
+      </td>
+      <td>-19.1,
+            118.2</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>9</td>
+      <td>13 Feb 2025 06:00</td>
+      <td>Category 4</td>
+      <td><b>231</b></td>
+      <td>
+        no people
+      </td>
+      <td>21000 people
+      </td>
+      <td>-19.1,
+            118.2</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="currenttrack">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>10</td>
+      <td>13 Feb 2025 12:00</td>
+      <td>Category 4</td>
+      <td><b>241</b></td>
+      <td>
+        no people
+      </td>
+      <td>57000 people
+      </td>
+      <td>-19.3,
+            118.2</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>10</td>
+      <td>14 Feb 2025 00:00</td>
+      <td>Category 5</td>
+      <td><b>259</b></td>
+      <td>21000 people
+      </td>
+      <td>58000 people
+      </td>
+      <td>-19.8,
+            118.2</td>
+      <td>
+      </td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>10</td>
+      <td>14 Feb 2025 12:00</td>
+      <td>Category 4</td>
+      <td><b>241</b></td>
+      <td>1800 people
+      </td>
+      <td>76000 people
+      </td>
+      <td>-20.6,
+            118.3</td>
+      <td>Australia</td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>10</td>
+      <td>15 Feb 2025 00:00</td>
+      <td>Category 1</td>
+      <td><b>148</b></td>
+      <td>9500 people
+      </td>
+      <td>67000 people
+      </td>
+      <td>-22.1,
+            118.1</td>
+      <td>Australia</td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>10</td>
+      <td>15 Feb 2025 12:00</td>
+      <td>Tropical storm</td>
+      <td><b>74</b></td>
+      <td>
+        no people
+      </td>
+      <td>
+        &lt;1000 people
+      </td>
+      <td>-24.2,
+            117.4</td>
+      <td>Australia</td>
+    </tr>
+    <tr class="">
+      <td>
+        <div id="alertcolor_image_" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:asgard="http://asgard.jrc.it" xmlns:gdacs="http://www.gdacs.org" xmlns:glide="http://glidenumber.net" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom"><img src="../images/gdacs_icons/alerts/Green/TC.png" style="width:30px;height:30px;" alt="GREEN"></div>
+      </td>
+      <td>10</td>
+      <td>16 Feb 2025 12:00</td>
+      <td>Tropical depression</td>
+      <td><b>56</b></td>
+      <td>
+        no people
+      </td>
+      <td>
+        no people
+      </td>
+      <td>-26.4,
+            117</td>
+      <td>Australia</td>
+    </tr>
+  </table>
+</div>
+                            </div>
+			                <div id="containerLegend">
+			                    <div id="containerLegendLeft" style="float:left;">
+                                    
+                                    <div>
+				                        <div class="currenttrack" style="height:16px;width:16px;float:left;"></div>
+				                        <div style="padding-left:20px">Actual track of the current bulletin</div>
+			                        </div>
+			                        <div>
+				                        <div class="alertdecreased" style="height:16px;width:16px;float:left;"></div>
+				                        <div style="padding-left:20px">The alert  for forecast greater than 3 days is limited to Orange level.</div>
+			                        </div>
+                                </div>
+			                    <div id="containerLegendRigth" style="float:right">
+                                    Download: 
+                                    <a href="../kml.kml?profile=archive&eventid=1001145&eventtype=TC&sourceid=JTWC" title="Download Kml " target="_blank"><i class="fas fa-globe-americas" style="color:#608BA2;display:inline-block;font-size:15px"></i></a>
+                                    <a href="../contentdata/resources/TC/1001145/geojson_1001145_10.geojson" title="Download geojson structure" target="_blank"><i class="fas fa-globe" style="color:#608BA2;display:inline-block;font-size:15px"></i></a>
+                                    <a href="../contentdata/resources/TC/1001145/JTWC/10/all_inpData.txt" title="Download track" target="_blank"><i class="fas fa-route" style="color:#608BA2;display:inline-block;font-size:15px"></i></a>
+                                    
+                                </div>
+                            </div> 
+                            
+
+                        </div>
+                    </div>
+                    <div id="sectionImpactWind" class="row ">
+
+                        <div id="contentImpact" class="col-lg-12">
+                            <br>
+                            <div id="containerHighCharts" style="width:100%;height:400px"></div>
+                        <br><br>
+                        <h2>Exposed population - <a href="../aoi.aspx.html?eventtype=TC&eventid=1001145">AoIs</a></h2>
+                        <p class="p_summary ">Exposed population in the potential affected countries, provinces and populated places</p>
+                        <h3>Countries</h3><div id="countries">
+  <table class="generic">
+    <tr class="main_tit">
+      <th>Country</th>
+      <th>Population in Category 1 or higher strength</th>
+    </tr>
+    <tr>
+      <td>Australia</td>
+      <td>26000 people
+      </td>
+    </tr>
+  </table>
+</div><h3>Provinces</h3><div id="provinces">
+  <table class="generic">
+    <tr class="main_tit">
+      <th>Region Province</th>
+      <th>Country</th>
+      <th>Population in Category 1 or higher strength</th>
+    </tr>
+    <tr>
+      <td>Western Australia</td>
+      <td>Australia</td>
+      <td>26000 people
+      </td>
+    </tr>
+  </table>
+</div>
+                        <h3>Populated places</h3><div id="cities">
+  <table class="generic">
+    <tr class="main_tit">
+      <th>Name</th>
+      <th>Region Province</th>
+      <th>Country</th>
+      <th>City class</th>
+      <th>Population</th>
+    </tr>
+    <tr>
+      <td>Port Hedland</td>
+      <td>Western Australia</td>
+      <td>Australia</td>
+      <td>City</td>
+      <td>14000 people
+      </td>
+    </tr>
+    <tr>
+      <td>Wedgefield</td>
+      <td>Western Australia</td>
+      <td>Australia</td>
+      <td>City</td>
+      <td>
+        -
+      </td>
+    </tr>
+    <tr>
+      <td>South Hedland</td>
+      <td>Western Australia</td>
+      <td>Australia</td>
+      <td>City</td>
+      <td>
+        -
+      </td>
+    </tr>
+    <tr>
+      <td>Wittenoom Gorge</td>
+      <td>Western Australia</td>
+      <td>Australia</td>
+      <td>City</td>
+      <td>
+        -
+      </td>
+    </tr>
+    <tr>
+      <td>Tom Price</td>
+      <td>Western Australia</td>
+      <td>Australia</td>
+      <td>City</td>
+      <td>
+        -
+      </td>
+    </tr>
+  </table>
+</div>
+                        <h2>Critical infrastructure</h2>
+                        <p class="p_summary">Airports, ports, nuclear plants and hydrodams at risk, if affected, are listed below.</p>
+                        <h3>Airports</h3><div id="airports">
+  <table class="generic">
+    <tr class="main_tit">
+      <th>Name</th>
+      <th>IATA Code</th>
+      <th>Elevation (m)</th>
+      <th>Usage</th>
+      <th>Runway type</th>
+      <th>IFR</th>
+      <th>Runway Length (ft)</th>
+    </tr>
+    <tr>
+      <td>Port Hedland</td>
+      <td><a href="http://www.theairdb.com/airport/PHE.html">PHE</a></td>
+      <td>10</td>
+      <td>Civ.</td>
+      <td>Paved</td>
+      <td>Yes</td>
+      <td>8200</td>
+    </tr>
+    <tr>
+      <td>Wittenoom Gorge</td>
+      <td><a href="http://www.theairdb.com/airport/WIT.html">WIT</a></td>
+      <td>
+        unknown
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Tom Price</td>
+      <td><a href="http://www.theairdb.com/airport/TPR.html">TPR</a></td>
+      <td>
+        unknown
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Paraburdoo</td>
+      <td><a href="http://www.theairdb.com/airport/PBO.html">PBO</a></td>
+      <td>429</td>
+      <td>Civ.</td>
+      <td>Paved</td>
+      <td>Yes</td>
+      <td>6900</td>
+    </tr>
+  </table>
+</div><h3>Ports</h3><div id="ports">
+  <table class="generic">
+    <tr class="main_tit">
+      <th>Name</th>
+      <th>LOCODE</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Port Hedland</td>
+      <td>AUPHE</td>
+      <td>Coral Sea Islands</td>
+    </tr>
+  </table>
+</div>
+                        </div>
+                    </div>
+                </div>            
+
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionRainfall" class="row alert_contents section_report">
+        <div id="contentRainfall" class="col-lg-12">
+            <div id="" class="row">
+                <div class="col-lg-12">
+                    <div class="toplink_div"><a href="#">TOP</a></div>
+                    <h2><a name="RAIN">Rainfall</a></h2>
+                    <p class="p_summary">
+                        Rainfall accumulation of the past 24h, as detected by the Global Precipitation Measurement mission of NASA. For more information, see <a href="https://www.nasa.gov/mission_pages/GPM/main/index.html" target="_blank">https://www.nasa.gov/mission_pages/GPM/main/index.html</a>.
+                      </p>
+                    <div id="mapcontainer">
+                        <div id="map" class="main_report_map">
+                        </div>
+                        <div id="popup" class="ol-popup">
+                            <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                            <div id="popup-content"></div>
+                        </div>
+            	        <div id="labelRainDate" style="width:440px;float:left;text-align:center;font-weight:bold">...</div>
+				        <br>
+                        <div id="slider_rain_container" style="width: 500px; max-width:100%;">
+                            <div id="slider_rain_date">
+                                <div id="rain-date-handle" class="custom-handle"></div>                            
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="sectionStormSurge" class="row alert_contents">
+        <div id="contentStormsurge" class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="toplink_div"><a href="#">TOP</a></div>
+                    <h2><a name="STORMSURGE">StormSurge</a></h2>
+                    <div class="alert_SS_source_orange">1 m</div><p class="p_summary">
+        The maximum Storm surge height is <b xmlns="http://www.w3.org/TR/xhtml1/strict" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:jrc="http://jrc.org/date-time">
+  <img src="../images/gdacs_icons/alerts/Orange/TS.png" alt="" height="16">
+       1.0m
+    </b>
+        in <b xmlns="http://www.w3.org/TR/xhtml1/strict" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:jrc="http://jrc.org/date-time">Derby</b>, <b xmlns="http://www.w3.org/TR/xhtml1/strict" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:jrc="http://jrc.org/date-time">Australia</b>. This
+        height is estimated for <b xmlns="http://www.w3.org/TR/xhtml1/strict" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:jrc="http://jrc.org/date-time">11 Feb 2025 14:00 UTC
+          </b>.
+      </p><!--1-->    
+                    <div class="row cyclone_image_surge">
+                        <div id="sectionImageSS1" class="col-lg-6">
+
+                        </div>
+                        <div id="sectionImageSS2" class="col-lg-6">
+
+                        </div>
+                    </div>
+                    <div class="half_caption">
+                        <p>The JRC has developed an experimental global storm surge model. The calculations are published about 20 minutes after a new advisory is detected         by GDACS. The calculations identify the populated places affected by storm surge up to three days in advance, using the          forecasted track. When forecasts change, the associated storm surge changes too and alert levels may go up or down. All  links, data, statistics and maps refer to the latest available  calculation. If the calculation for the last advisory is not  completed, the latest available calculation is shown. </p>
+                    </div>
+                        
+					
+                    <div class="table table-responsive">
+                        <div id="locations"><div id="iconDownload" title='Joint Research Center of the European Commission' tooltip='Joint Research Center of the European Commission' style="display: inline; float:right"><a href="../contentdata/resources/TC/1001145/JTWC/final/locations.kmz"><i class="fas fa-download"></i></a></div><p class="p_summary">
+    Locations affected by Storm surge (21 locations).
+    
+      Calculation based on advisory number 10 of 13 Feb 2025 12:00:00 UTC.
+      
+    (Simulation using 0.5 minute resolution)
+  </p><table class="generic" xmlns="http://www.w3.org/TR/xhtml1/strict" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:jrc="http://jrc.org/date-time">
+  <tr class="main_tit">
+    <td>Alert</td>
+    <td>Date (UTC)</td>
+    <td>Name</td>
+    <td>Country</td>
+    <td>Storm surge height (m)
+          </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Orange/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 14:00</td>
+    <td>Derby</td>
+    <td>Australia</td>
+    <td>
+       1.0</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>12 Feb 2025 00:00</td>
+    <td>Condon</td>
+    <td>Australia</td>
+    <td>
+       0.7</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 12:00</td>
+    <td>Kollan I</td>
+    <td>Australia</td>
+    <td>
+       0.5</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 13:00</td>
+    <td>Pender</td>
+    <td>Australia</td>
+    <td>
+       0.4</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 16:00</td>
+    <td>Broome</td>
+    <td>Australia</td>
+    <td>
+       0.4</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 16:00</td>
+    <td>Thangoo</td>
+    <td>Australia</td>
+    <td>
+       0.3</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 16:00</td>
+    <td>Waterbank</td>
+    <td>Australia</td>
+    <td>
+       0.3</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 16:00</td>
+    <td>Kennedys Cottage</td>
+    <td>Australia</td>
+    <td>
+       0.3</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 14:00</td>
+    <td>Larrakeyah</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 14:00</td>
+    <td>Fannie Bay</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 14:00</td>
+    <td>Parap</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 14:00</td>
+    <td>Darwin</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 14:00</td>
+    <td>Ludmilla</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 14:00</td>
+    <td>Bagot</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 14:00</td>
+    <td>Nightcliff</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>11 Feb 2025 16:00</td>
+    <td>Leanyer</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>13 Feb 2025 08:00</td>
+    <td>East Lewis I</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>13 Feb 2025 02:00</td>
+    <td>Wickham</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>13 Feb 2025 02:00</td>
+    <td>Point Samson</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>13 Feb 2025 02:00</td>
+    <td>Cossack</td>
+    <td>Australia</td>
+    <td>
+       0.2</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../images/gdacs_icons/alerts/Green/SS.png" alt="" height="30">
+    </td>
+    <td>13 Feb 2025 05:00</td>
+    <td>Ah Chong I</td>
+    <td>Australia</td>
+    <td>
+       0.1</td>
+  </tr>
+</table></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var reportImage1 ='https://www.gdacs.org/contentdata/resources/TC/1001145/JTWC/10/clouds_1001145_10_zoom.png';
+        var reportImage2 = 'https://www.gdacs.org/contentdata/resources/TC/1001145/JTWC/10/clouds_1001145_10.png';
+        var reportLegendImage1 = 'Current situation (last bulletin): TC track, Wind buffers (Green: 63-92 km/h, Orange: 93-118 km/h, Red:>118 km/h)';
+        var reportLegendImage2 ='Overall situation: TC track, Wind buffers (Green: 63-92 km/h, Orange: 93-118 km/h, Red:>118 km/h)';
+        var reportImageSS1 ='https://www.gdacs.org/contentdata/resources/TC/1001145/JTWC/final/P1_MAXHEIGHT_END.jpg';
+        var reportImageSS2 ='https://www.gdacs.org/contentdata/resources/TC/1001145/JTWC/final/outres1.gif';
+        var reportShowAlertBar = true;
+        var reportHasStormSurge = true;
+
+        var reportFromDate = '2025-02-11 00:00:00';
+        var reportToDate = '2025-02-14 00:00:00';
+        var reportEventtype = '';
+        var reportShowRain = true;
+        var reportShowCloud = true;
+        var reportCloudTemplate = 'https://www.gdacs.org/contentdata/img/clouds/[yyyy]/[mm]/[yyyy][mm][dd].png';
+        var reportRainTemplate = 'https://www.gdacs.org/contentdata/img/rain/[yyyy]/[mm]/[yyyy][mm][dd].png';
+        var reportLon= 119.1;
+        var reportLat=-20.2;
+        var reportLayerToShow='';
+        var reportZoomLevel=3;
+
+        var reportchartTitle = 'Sustained wind speed  and exposed population (Category 1 or higher)';
+        var reportchartBulletin=['11/02 06:00','11/02 12:00','11/02 18:00','12/02 00:00','12/02 06:00','12/02 12:00','12/02 18:00','13/02 00:00','13/02 06:00','13/02 12:00','14/02 00:00','14/02 12:00','15/02 00:00','15/02 12:00','16/02 12:00'];
+        var reportchartPopulation=[0,0,0,0,0,0,0,0,0,0,.02,0,.01,0,0];
+        var reportchartWind=[74,74,93,111,120,130,157,222,231,241,259,241,148,74,56];
+
+        var reportMaxAlertscore=0.5;
+        var reportCurrentAlertscore=0.5;
+        var reportForecastFrom=8.5;
+        var reportForecastTo=14.5;
+
+        var reportWMSCloud='';
+        var reportWMSRain='';
+        var reportWMSPopDensity='';
+        var reportWMSRDRI = '';
+
+        var reportModisTemplate='';
+        var reportGFDSTemplate='';
+        var reportShowGFDS=false;
+        var reportShowPopDensity=false;
+        var reportHasMaps=false;
+        var reportJsonLayer ='';
+        var reportShakeLayer = '';
+        var reportJsonLayerPopulation = '';
+        var reportJsonLayerOverAll = '';
+        var reportJsonNppLayer = '';
+
+        var reportJsonLayerGFM_Observed = '';
+        var reportFloodsTemplate = '';
+        var reportGFMTemplate = '';
+        var reportOverallGFM = '';
+
+        var stepIndex = 5;
+        //Function to hid/show the table line
+        function assignStyleLines (idSection){
+            var rowCount = $(idSection+' tr').length;
+            $(idSection+' tr' ).each(function( index ) {
+                if (index>0)
+                    $( this ).css("display","none");
+            });
+            $(idSection+' tr').slice(1, stepIndex+1).slideDown();
+            
+        }
+
+        
+        $(function () {
+            if (window.innerWidth < 900) {
+                $("#impactTimeline").attr("style", "white-space: nowrap");
+                $("#bulletinTimeline").attr("style", "white-space: nowrap");
+                $("#locations").attr("style", "white-space: nowrap");
+            }
+        });
+
+        $(window).resize(function () {
+            if (window.innerWidth < 900) {
+                $("#impactTimeline").attr("style", "white-space: nowrap")
+                $("#bulletinTimeline").attr("style", "white-space: nowrap");
+                $("#locations").attr("style", "white-space: nowrap");
+            }
+            else {
+                $("#impactTimeline").attr("style", "white-space: normal");
+                $("#bulletinTimeline").attr("style", "white-space: normal");
+                $("#locations").attr("style", "white-space: normal");
+            }
+        });
+
+
+
+        function showRows(idSection){
+            var vis = $(idSection + ' tr:hidden').last().index();
+            $(idSection + ' tr:hidden').slice(0, stepIndex).slideDown();
+        }
+
+        function hideRows(idSection){
+            var vis = $(idSection + ' tr:hidden').first().index();
+            if (vis < 0)
+                vis = $(idSection + ' tr').length;
+            if ((vis-stepIndex)>6)
+                $(idSection + ' tr').slice(vis-stepIndex,vis+1 ).slideUp();
+            else
+                $(idSection + ' tr').slice(stepIndex+1,vis+1).slideUp();
+        }
+
+
+        function collapseSection (idSection, rowstoshow){
+            var rowCount = $(idSection+' tr').length;
+            $(idSection+' tr' ).each(function( index ) {
+                if (index>0)
+                    $( this ).css("display","none");
+            });
+            if (($(idSection+' tr').length-rowstoshow)<=0)
+                rowstoshow=$(idSection+' tr').length;
+            $(idSection + ' tr:hidden').slice($(idSection+' tr').length-rowstoshow, $(idSection+' tr').length).slideDown();
+        }
+        function expandSection(idSection){
+            var index = $(idSection + ' tr:hidden').last().index();
+            $(idSection + ' tr:hidden').slice(0, index).slideDown();
+        }
+
+
+
+        $(function () {
+            if (reportImage1 != "") {
+                $('#sectionImage2').html('<img class="popimage" id="img1" width="100%" padding-top:"15px" style="margin-bottom: 5px;" src="' + reportImage1 + '" /><div id=\"map_report_caption\" style=\"margin-top:0px; padding-left:20px\">'+reportLegendImage1+' </div>');
+            }
+            if (reportImage2 != "") {
+                $('#sectionImage1').html('<img class="popimage" id="img2" width="100%" padding-top:"15px" style="margin-bottom: 5px;" src="' + reportImage2 + '" /><div id=\"map_report_caption\" style=\"margin-top:0px; padding-left:20px\">'+reportLegendImage2+'</div>');
+            }
+            if (!reportShowAlertBar) {
+                $("#alertbar").remove();
+            }
+            if (reportImageSS1 != "") {
+                $('#sectionImageSS1').append('<img class="popimage" id="imgSS1" width="100%" max-width="100%" padding-top:"15px" style="margin-bottom: 5px;" src="' + reportImageSS1 + '" />');
+            }
+            if (reportImageSS2 != "") {
+                $('#sectionImageSS2').append('<img class="popimage" id="imgSS2" width="100%" max-width="100%" padding-top:"15px" style="margin-bottom: 5px;" src="' + reportImageSS2 + '" />');
+            }
+            if (false) {
+                $("#menuSourceCol").remove();
+                $("#meteodefSourceCol").removeClass("col-lg-5");
+                $("#meteodefSourceCol").addClass("col-lg-7");
+            }
+
+            $('.popimage').on('click', function () {
+			    $('.imagepreview').attr('src', $(this).attr('src'));
+			    $('#imagemodal').modal('show');   
+		    });	
+            if (!reportHasStormSurge) {
+                $("#sectionStormSurge").remove();
+            }
+            
+
+            assignStyleLines("#countries");
+            if (stepIndex<$('#countries tr').length)
+            {
+                var r= $('<div class="buttonrow">'+
+                            '<div class="button_item_left"><img id="moreCountries" src="../images/down_arrow.png"></div>'+
+                            '<div class="button_item_right"><img id="lessCountries" src="../images/up_arrow.png"></div>'+
+                          '</div>');
+
+                $("#countries").append(r);
+                $('#moreCountries').on('click',function(){
+                    showRows("#countries");
+                });
+                $('#lessCountries').on('click',function(){
+                    hideRows("#countries");
+                })
+            }
+
+            assignStyleLines("#provinces");
+            if (stepIndex<$('#provinces tr').length)
+            {
+                var r= $('<div class="buttonrow">'+
+                            '<div class="button_item_left"><img id="moreProvinces" src="../images/down_arrow.png"></div>'+
+                            '<div class="button_item_right"><img id="lessProvinces" src="../images/up_arrow.png"></div>'+
+                          '</div>');
+
+                $("#provinces").append(r);
+                $('#moreProvinces').on('click',function(){
+                    showRows("#provinces");
+                });
+                $('#lessProvinces').on('click',function(){
+                    hideRows("#provinces");
+                })
+            }
+            assignStyleLines("#cities");
+            if (stepIndex<$('#cities tr').length)
+            {
+                //var r= $('<input id="moreCities" type="button" value="More"/>');
+
+                var r= $('<div class="buttonrow">'+
+                            '<div  class="button_item_left"><img id="moreCities" src="../images/down_arrow.png"></div>'+
+                            '<div  class="button_item_right"><img id="lessCities" src="../images/up_arrow.png"></div>'+
+                          '</div>');
+
+                $("#cities").append(r);
+                
+                //r= $('<input id="lessCities" type="button" value="Less"/>');
+                //$("#cities").append(r);
+                $('#moreCities').on('click',function(){
+                    showRows("#cities");
+                });
+                $('#lessCities').on('click',function(){
+                    hideRows("#cities");
+                })
+            }
+            assignStyleLines("#airports");
+            if (stepIndex<$('#airports tr').length)
+            {
+                var r= $('<div class="buttonrow">'+
+                            '<div  class="button_item_left"><img id="moreAirports" src="../images/down_arrow.png"></div>'+
+                            '<div  class="button_item_right"><img id="lessAirports" src="../images/up_arrow.png"></div>'+
+                          '</div>');
+
+                $("#airports").append(r);
+                $('#moreAirports').on('click',function(){
+                    showRows("#airports");
+                });
+                $('#lessAirports').on('click',function(){
+                    hideRows("#airports");
+                })
+            }
+
+            assignStyleLines("#ports");
+            if (stepIndex<$('#ports tr').length)
+            {
+                var r= $('<div class="buttonrow">'+
+                            '<div  class="button_item_left"><img id="morePorts" src="../images/down_arrow.png"></div>'+
+                            '<div  class="button_item_right"><img id="lessPorts" src="../images/up_arrow.png"></div>'+
+                          '</div>');
+
+                $("#ports").append(r);
+                $('#morePorts').on('click',function(){
+                    showRows("#ports");
+                });
+                $('#lessPorts').on('click',function(){
+                    hideRows("#ports");
+                })
+            }
+
+            assignStyleLines("#dams");
+            if (stepIndex<$('#dams tr').length)
+            {
+                var r= $('<div class="buttonrow">'+
+                            '<div  class="button_item_left"><img id="moreDams" src="../images/down_arrow.png"></div>'+
+                            '<div  class="button_item_right"><img id="lessDams" src="../images/up_arrow.png"></div>'+
+                          '</div>');
+                $("#dams").append(r);
+                $('#moreDams').on('click',function(){
+                    showRows("#dams");
+                });
+                $('#lessDams').on('click',function(){
+                    hideRows("#dams");
+                })
+            }
+            assignStyleLines("#nuclear");
+            if (stepIndex<$('#nuclear tr').length)
+            {
+                var r= $('<div class="buttonrow">'+
+                            '<div  class="button_item_left"><img id="moreNuclear" src="../images/down_arrow.png"></div>'+
+                            '<div  class="button_item_right"><img id="lessNuclear" src="../images/up_arrow.png"></div>'+
+                          '</div>');
+                $("#nuclear").append(r);
+                $('#moreNuclear').on('click',function(){
+                    showRows("#nuclear");
+                });
+                $('#lessNuclear').on('click',function(){
+                    hideRows("#nuclear");
+                })
+            }
+            assignStyleLines("#locations");
+            if (stepIndex<$('#locations tr').length)
+            {
+                var r= $('<div class="buttonrow">'+
+                            '<div  class="button_item_left"><img id="moreLocations" src="../images/down_arrow.png"></div>'+
+                            '<div  class="button_item_right"><img id="lessLocations" src="../images/up_arrow.png"></div>'+
+                          '</div>');
+                $("#locations").append(r);
+                $('#moreLocations').on('click',function(){
+                    showRows("#locations");
+                });
+                $('#lessLocations').on('click',function(){
+                    hideRows("#locations");
+                })
+                
+            }
+
+            //impact Timeline section
+            collapseSection("#impactTimeline", 2);
+            var r= $('<div class="buttonrow">'+
+                        '<div  class="button_item_left"><img id="moreImpactTimeline" src="../images/down_arrow.png"></div>'+
+                        '<div  class="button_item_right"><img id="lessImpactTimeline" src="../images/up_arrow.png"></div>'+
+                        '</div>');
+            $("#impactTimeline").append(r);
+            $('#moreImpactTimeline').on('click',function(){
+                expandSection("#impactTimeline");
+            });
+            $('#lessImpactTimeline').on('click',function(){
+                collapseSection("#impactTimeline",2);
+            });
+            //bulletinTimeline
+			var _currentBT = $('#bulletinTimeline table tr.currenttrack').index();
+            var _lastBT = $('#bulletinTimeline table tr').length;
+            var _numBT = 1;
+			if (_lastBT>_currentBT){
+				_numBT = (_lastBT - _currentBT)+1
+			}
+			collapseSection("#bulletinTimeline", _numBT );
+            var r= $('<div class="buttonrow">'+
+                        '<div  class="button_item_left"><img id="moreBulletinTimeline" src="../images/down_arrow.png"></div>'+
+                        '<div  class="button_item_right"><img id="lessBulletinTimeline" src="../images/up_arrow.png"></div>'+
+                        '</div>');
+            $("#bulletinTimeline").append(r);
+            $('#moreBulletinTimeline').on('click',function(){
+                expandSection("#bulletinTimeline");
+            });
+            $('#lessBulletinTimeline').on('click',function(){
+                collapseSection("#bulletinTimeline",_numBT );
+            });
+
+
+            //Slider for maps
+            $( "#slider_rain_date" ).slider({
+                value: Math.floor((endDate.getTime() - startDate.getTime()) / 86400000),
+                min: Math.floor((startDate.getTime() - startDate.getTime()) / 86400000),
+                max: Math.floor((endDate.getTime() - startDate.getTime()) / 86400000),
+                step: 1,
+                slide: function( event, ui ) {
+                    stepDate = (new Date(startDate.getTime() + parseInt(ui.value*86400000))); 
+                    $("#labelRainDate").text(stepDate.toDateString());
+                    setTime();
+                }
+            });
+            $("#labelRainDate").text(endDate.toDateString());
+            reportAlertScoreBar("#alertscorebar",reportMaxAlertscore,reportCurrentAlertscore);
+            cycloneLineBar("containerHighCharts", "Bulletin timeline", reportchartTitle,reportchartBulletin, reportchartPopulation, reportchartWind,reportForecastFrom,reportForecastTo);
+
+        });
+
+
+    </script>
+    <script type="text/javascript" src="../Scripts/GdacsMap/reportmap.js"></script>
+
+
+                </form>
+            </div><!-- end main_alert_content-->
+            
+
+            <div id="footer_home">
+                <nav class="navbar navbar-expand-lg navbar-light navbar-footer col-12">
+                  <button class="navbar-toggler" style="font-size:18px; color:white; font-weight:bold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style="color:white;"></span>
+                      MENU
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkupFooter">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="../default.aspx.html">HOME</a>
+                        <a class="nav-item nav-link" href="../Alerts/default.aspx.html">ALERTS</a>
+                        <a class="nav-item nav-link" href="http://vosocc.unocha.org">VIRTUAL OSOCC</a>
+                        <a class="nav-item nav-link" href="https://smcs.unosat.org/home" target="_blank">MAPS & SATELLITE IMAGERY</a>
+                        <a class="nav-item nav-link" href="../Knowledge/overview.aspx.html">KNOWLEDGE</a>
+                        <a class="nav-item nav-link" href="../About/overview.aspx.html">ABOUT GDACS</a>
+                    </div>
+                  </div>
+                </nav>
+                <div id="footer_disclaimer" class="col-12">
+                    <!--<div class="float-left gdacs_bottom_menu_content" ><a href="https://ec.europa.eu/info/brexit-content-disclaimer" target="_blank">Brexit content disclaimer</a></div>-->
+                    <div class="float-end gdacs_bottom_menu_content"><a href="../About/cookies.aspx.html" target="_blank">cookies</a></div>
+                    <p><b><span class="gdacs_bottom_menu_content"><a href="https://ec.europa.eu/info/legal-notice_en" target="_blank">Disclaimer</a></span></b><br>
+                    While we try everything to ensure accuracy, this information is purely indicative and should not be used for any decision making without alternate sources of information. 
+                    <br>The JRC is not responsible for any damage or loss resulting from the use of the information presented on this website.
+                    <br>The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the European Union concerning the legal status of any country, territory or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.
+                    </p>
+                </div>
+                <div id="footer_logo" class="d-none d-lg-block col-lg-12">
+                    <div class="footerlogo_item d-none d-lg-block"><img src="../images/gdacs_icons/partners/ec.png" width="90" height="70" alt=""></div>
+                    <div class="footerlogo_item d-none d-lg-block"><img src="../images/gdacs_icons/partners/ocha.png" width="90" height="70" alt=""></div>
+                    <div class="footerlogo_item d-none d-lg-block"><img src="../images/gdacs_icons/partners/unitar.png" width="90" height="70" alt=""></div>
+                    <div class="footerlogo_item d-none d-lg-block"><img src="../images/gdacs_icons/partners/unosat.png" width="90" height="70" alt=""></div>
+                </div>
+	        </div>
+                                
+        </div>
+    </div>
+
+<script type="text/javascript">
+
+    $(function () {
+        if (window.innerWidth < 991) {
+            $("#nopadding").addClass('container-fluid').removeClass('container');
+            $("#meteorological").remove();
+            $("#secondary_cyclone_source").remove();
+            $("#tab_responsive").addClass('table-responsive');
+            $("#cities").addClass('table-responsive');
+            $("#airports").addClass('table-responsive');
+            $("#dams").addClass('table-responsive');
+            if (document.getElementById("mapcol1") != null) { (document.getElementById("mapcol1").style.paddingLeft = '0px') };
+            if (document.getElementById("sectionImageSS1") != null) { (document.getElementById("sectionImageSS1").style.paddingLeft = '0px') };
+            if (document.getElementById("sectionImageSS2") != null) { (document.getElementById("sectionImageSS2").style.paddingLeft = '0px') };
+            if (document.getElementById("#alert_sources_minitabs") != null) { (document.getElementById("#alert_sources_minitabs").style.paddingLeft = '0px') };
+            if (document.getElementById("#eventMenu") != null) { (document.getElementById("#eventMenu").style.paddingLeft = '0px') };
+            if (document.getElementById("#eventMenuDrop") != null) { (document.getElementById("#eventMenuDrop").style.paddingLeft = '0px') };
+        }
+
+    });
+
+    $(window).resize(function () {
+        if (window.innerWidth < 991) {
+            $("#nopadding").addClass('container-fluid').removeClass('container');
+            $("#tab_responsive").addClass('table-responsive');
+            $("#cities").addClass('table-responsive');
+            $("#airports").addClass('table-responsive');
+            $("#dams").addClass('table-responsive');
+            if (document.getElementById("mapcol1") != null) { (document.getElementById("mapcol1").style.paddingLeft = '0px') };
+            if (document.getElementById("sectionImageSS1") != null) { (document.getElementById("sectionImageSS1").style.paddingLeft = '0px') };
+            if (document.getElementById("sectionImageSS2") != null) { (document.getElementById("sectionImageSS2").style.paddingLeft = '0px') };
+            if (document.getElementById("#eventMenu") != null) { (document.getElementById("#eventMenu").style.paddingLeft = '0px') };
+            if (document.getElementById("#eventMenuDrop") != null) { (document.getElementById("#eventMenuDrop").style.paddingLeft = '0px') };
+        }
+        else {
+            $("#nopadding").addClass('container').removeClass('container-fluid');
+            $("#tab_responsive").removeClass('table table-responsive');
+            $("#cities").removeClass('table-responsive');
+            if (document.getElementById("mapcol1") != null) { (document.getElementById("mapcol1").style.paddingLeft = '15px') };
+            if (document.getElementById("sectionImageSS1") != null) { (document.getElementById("sectionImageSS1").style.paddingLeft = '15px') };
+            if (document.getElementById("sectionImageSS2") != null) { (document.getElementById("sectionImageSS2").style.paddingLeft = '15px') };
+            if (document.getElementById("#alert_sources_minitabs") != null) { (document.getElementById("#alert_sources_minitabs").style.paddingLeft = '0px') };
+            if (document.getElementById("#section") != null) { (document.getElementById("#section").style.paddingLeft = '15px') };
+            if (document.getElementById("#eventMenu") != null) { (document.getElementById("#eventMenu").style.paddingLeft = '15px') };
+            if (document.getElementById("#eventMenuDrop") != null) { (document.getElementById("#eventMenuDrop").style.paddingLeft = '0px') };
+        }
+
+        if (window.innerWidth < 768) {
+            $("#legend").remove();
+            $("#meteorological").remove();
+            $("#alert_sources_minitabs").after("<div id=\"meteorological\" class=\"col-lg-12\" style=\"padding-left: 0px;\"><div class=\"sources_\"> <p class=\"p_summary\" style=\"padding-left: 0px;\"><p class=\"col-lg-4\" style=\"color: #6d9baf;text-decoration: none;font-weight: bold;\">Meteorological source</p>:</p><br/><br/></div>" +
+                "<br/><div class=\"main_cyclone_source\"><div class=\"sources_minitabs_sel\">GDACS</div><div class=\"p_summary_extrasmall\" style=\"margin-left:10px\">Impact Single TC</div>" +
+                "</div><br/><br/><div class=\"secondary_cyclone_source\"><div class=\"sources_minitabs_not_active\">HWRF</div><div class=\"sources_minitabs_not_active\">ECMWF</div>" +
+                "<div class=\"sources_minitabs_not_active\">GFS</div><div class=\"p_summary_extrasmall\" style=\"margin - left: 10px\">Impact all weather systems in the area</div></div></div>");
+            if (document.getElementById("#alert_sources_minitabs") != null) { (document.getElementById("#alert_sources_minitabs").style.paddingLeft = '0px') };
+            if (document.getElementById("#section") != null) { (document.getElementById("#section").style.paddingLeft = '0px') };
+        }
+        else {
+            $("#meteorological").remove();
+            $("#section1").before("<div id=\"meteorological\" class=\"col-lg-12\" style=\"padding-left: 15px;\"><div class=\"sources_\"> <p class=\"p_summary\"><a href=\"*\">Meteorological source</a>:</p></div>" +
+                "<div class=\"main_cyclone_source\"><div class=\"sources_minitabs_sel\">GDACS</div><div class=\"p_summary_extrasmall\" style=\"margin-left:10px\">Impact Single TC</div>" +
+                "</div><div class=\"secondary_cyclone_source\"><div class=\"sources_minitabs_not_active\">HWRF</div><div class=\"sources_minitabs_not_active\">ECMWF</div>" +
+                "<div class=\"sources_minitabs_not_active\">GFS</div><div class=\"p_summary_extrasmall\" style=\"margin - left: 10px\">Impact all weather systems in the area</div></div></div>");
+        }
+
+
+        if (window.innerWidth < 500) {
+            $("#slider_rain_container").attr("style", "width: 400px;");
+        }
+        else {
+            $("#slider_rain_container").attr("style", "width: 500px;");
+        }
+
+
+        if (window.innerWidth < 400) {
+            $("#slider_rain_container").attr("style", "width: 320px");
+            $("#labelRainDate").attr("style", "width: 320px;float: left;text-align: center;font-weight: bold;");
+        }
+        else {
+            $("#slider_rain_container").attr("style", "width: 500px;");
+            $("#labelRainDate").attr("style", "width: 440px;float: left;text-align: center;font-weight: bold;");
+        }
+
+
+        if (window.innerWidth < 500) {
+            $("#slider_rain_container").attr("style", "width: 400px;");
+        }
+
+        if (window.innerWidth < 400) {
+            $("#slider_rain_container").attr("style", "width: 320px");
+            $("#labelRainDate").attr("style", "width: 320px;float: left;text-align: center;font-weight: bold;");
+
+        }
+
+
+    });
+
+</script>
+
+<!--
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-298127-1");
+pageTracker._setDomainName(".gdacs.org");
+pageTracker._setLocalRemoteServerMode();
+pageTracker._trackPageview();
+} catch(err) {}</script>
+-->
+</body>
+</html>
